@@ -97,12 +97,16 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
     );
   }
 
-  // 7. icon (hard error if specified but missing)
+  // 7. icon (hard error if specified but missing; suggestion if bootstrapping with none)
   if (pkg.icon) {
     const iconPath = resolve(iconsDir, pkg.icon);
     if (!existsSync(iconPath)) {
       throw new Error(`Icon ${pkg.icon} not found in /icons/ for ${name}`);
     }
+  } else if (isNew) {
+    todos.push(
+      `Add an icon at icons/${name}.svg (or .png/.jpg/.webp) and set \`icon: ${name}.svg\` in the yml`,
+    );
   }
 
   // 8. website
