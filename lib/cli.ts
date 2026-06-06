@@ -42,7 +42,7 @@ async function runSingleSync(name: string, repo?: string): Promise<void> {
   const action = ui.logger.action(`Syncing ${name}`).displayDuration();
   try {
     const { package: pkg, regressions } = await sync(name, repo, true);
-    action.succeeded(`Synced ${pkg.name}`);
+    action.succeeded();
 
     if (regressions.length > 0) {
       ui.logger.warning(`Regressions detected (${regressions.length}):`);
@@ -56,7 +56,7 @@ async function runSingleSync(name: string, repo?: string): Promise<void> {
     }
     ui.logger.success(`Sync completed successfully`);
   } catch (err) {
-    action.failed(name, err instanceof Error ? err.message : String(err));
+    action.failed(`name : ${err instanceof Error ? err.message : String(err)}`);
     process.exit(1);
   }
 }
@@ -92,10 +92,10 @@ async function runBuild(): Promise<void> {
   const action = ui.logger.action(`Building db.json`).displayDuration();
   try {
     await build();
-    action.succeeded(`Built db.json`);
+    action.succeeded();
     ui.logger.success(`Build completed`);
   } catch (err) {
-    action.failed("build", err instanceof Error ? err.message : String(err));
+    action.failed(`build ${err instanceof Error ? err.message : String(err)}`);
     process.exit(1);
   }
 }
