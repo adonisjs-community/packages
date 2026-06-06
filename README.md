@@ -16,8 +16,8 @@ The metadata is maintained as YAML files in [`./packages`](./packages) and built
    category: Database
    compatibility:
      adonis:
-       '6': ^21.0.0
-       '7': ^22.0.0
+       '6': 6.x
+       '7': 7.x
    ```
 
 2. Add an icon at `icons/<name>.svg` (or `.png`).
@@ -33,7 +33,7 @@ The metadata is maintained as YAML files in [`./packages`](./packages) and built
 | `icon` | ✓ | | Filename in `/icons/`. |
 | `website` | ✓ | | Project / docs URL. |
 | `category` | ✓ | | One of the 14 categories below. |
-| `compatibility.adonis` | ✓ | | Map of AdonisJS major version → semver range. |
+| `compatibility.adonis` | ✓ | | Map of AdonisJS major version → label (e.g. `6.x`, `7.x`). Keys declare which majors the package supports. |
 | `aliases` | ✓ | | Optional list of old names. |
 | `description` | | ✓ sync | From upstream `package.json`. |
 | `npm` | | ✓ sync | From upstream `package.json`. |
@@ -76,21 +76,21 @@ Or via CDN:
 
 ## Healthiness bot
 
-A weekly GitHub Action keeps the bot-owned fields fresh and maintains a long-lived **Dependency Dashboard** issue (label: `bot:dashboard`) listing actionable changes:
+A weekly GitHub Action keeps the bot-owned metadata fields (`lastCommitAt`, `lastReleaseAt`, `latestNpmVersion`, `status`) fresh by auto-committing directly to `main`. It also maintains a long-lived **Dependency Dashboard** issue (label: `bot:dashboard`) listing actionable curation calls:
 
-- Compatibility bumps when a package's latest npm version no longer satisfies the declared range.
-- "Add adonis N compat" when a new AdonisJS major is released and a package hasn't claimed support.
-- "Mark as stale" when a package has had no commits in 18 months AND doesn't claim compat with the current AdonisJS major.
+- **Mark as `status: stale`** — when a package has had no commits in 18+ months AND doesn't claim compat with the current AdonisJS major.
 
-Tick a checkbox in the dashboard issue → a `bot/healthcheck/<id>` PR opens with just that one change. The cron itself never opens PRs; it only auto-commits the four bot-owned metadata fields directly to `main`.
+Tick the checkbox in the dashboard issue → a `bot/healthcheck/<id>` PR opens with that single change. The cron itself never opens PRs.
+
+The bot deliberately does **not** propose compat-range edits or "claim adonis N support" — those are decisions only the package author can make.
 
 ### One-time setup (maintainer)
 
 1. Repo settings → Actions → General → **Workflow permissions**: Read and write permissions.
 2. Same page: check **Allow GitHub Actions to create and approve pull requests**.
-3. Create a fine-grained PAT (scoped to this repo) with: Contents read/write, Issues read/write, Pull requests read/write, Metadata read.
-4. Add it as a repo secret named `BOT_PAT`.
-5. (Optional) Pre-create labels `bot:dashboard` and `bot:auto-pr`. Otherwise the bot creates them on first use.
+3. Create a GitHub App scoped to this repo with these permissions: Contents read/write, Issues read/write, Pull requests read/write, Metadata read. Install on the repo.
+4. Add two repo secrets: `BOT_APP_ID` (the App ID number) and `BOT_APP_PRIVATE_KEY` (the App's `.pem` contents).
+5. Pre-create labels `bot:dashboard` and `bot:auto-pr` on the repo.
 
 To kick off the first run before the next Monday, trigger `Healthcheck (weekly)` manually via the Actions tab (`workflow_dispatch`).
 
