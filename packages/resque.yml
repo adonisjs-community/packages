@@ -1,7 +1,7 @@
 category: Extensions
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: A Node Resque Queue for AdonisJS v6
 icon: resque.png
 name: resque

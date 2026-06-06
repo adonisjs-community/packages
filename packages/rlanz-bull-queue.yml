@@ -1,11 +1,12 @@
 category: Extensions
 compatibility:
   adonis:
-    "5": ^5.0.0
-    "6": ^6.0.0
+    "5": 5.x
+    "6": 6.x
 description: Queue system based on BullMQ for AdonisJS
 name: rlanz-bull-queue
 npm: "@rlanz/bull-queue"
 repo: RomainLanz/adonis-bull-queue
+status: stale
 type: 3rd-party
 website: https://github.com/romainlanz/adonis-bull-queue

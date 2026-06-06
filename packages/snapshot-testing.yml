@@ -1,8 +1,8 @@
 category: Testing
 compatibility:
   adonis:
-    "5": ^5.0.0
-    "6": ^6.0.0
+    "5": 5.x
+    "6": 6.x
 description: Snapshot testing plugin for Japa
 icon: japa.png
 name: snapshot-testing

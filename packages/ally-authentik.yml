@@ -1,7 +1,7 @@
 category: Authentication
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Authentik driver for AdonisJS Ally
 icon: goauthentik.png
 name: ally-authentik

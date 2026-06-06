@@ -1,11 +1,12 @@
 category: Security
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Google reCAPTCHA v2 for AdonisJS
 icon: recaptcha.png
 name: recaptcha-v2
 npm: adonis-recaptcha2
 repo: lookinlab/adonis-recaptcha2#develop
+status: stale
 type: 3rd-party
 website: https://github.com/lookinlab/adonis-recaptcha2

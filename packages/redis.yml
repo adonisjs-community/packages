@@ -1,8 +1,8 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
-    "6": ^6.0.0
+    "5": 5.x
+    "6": 6.x
 description: AdonisJS addon for Redis
 icon: redis.png
 name: redis

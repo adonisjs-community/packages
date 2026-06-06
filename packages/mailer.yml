@@ -1,8 +1,8 @@
 category: Messaging
 compatibility:
   adonis:
-    "5": ^5.0.0
-    "6": ^6.0.0
+    "5": 5.x
+    "6": 6.x
 description: Mail provider for adonis framework and has support for all common
   mailing services to send emails
 icon: adonis.png

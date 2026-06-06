@@ -1,7 +1,7 @@
 category: Authentication
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: A Dropbox driver for AdonisJS Ally
 icon: dropbox.png
 name: julienbenac-ally-dropbox

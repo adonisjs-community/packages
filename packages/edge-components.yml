@@ -1,7 +1,7 @@
 category: Extensions
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: The most popular, free and open-source Tailwind CSS component
   library in edge template engine with daisyUI and Alpine.js
 name: edge-components

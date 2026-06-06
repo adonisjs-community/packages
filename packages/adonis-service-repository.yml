@@ -1,7 +1,7 @@
 category: Extensions
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Manage your service and repository file on AdonisJS
 icon: datatables.png
 name: adonis-service-repository

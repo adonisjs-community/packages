@@ -1,10 +1,11 @@
 category: Authorization
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Use dedicated classes to authorize and validate requests
 name: form-request
 npm: "@melchyore/adonis-form-request"
 repo: Melchyore/adonis-form-request
+status: stale
 type: 3rd-party
 website: https://github.com/Melchyore/adonis-form-request

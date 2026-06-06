@@ -1,7 +1,7 @@
 category: Extensions
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: MCP (Model Context Protocol) for AdonisJS.
 name: adonis-mcp
 npm: "@jrmc/adonis-mcp"

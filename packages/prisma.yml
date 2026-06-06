@@ -1,11 +1,12 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Prismxa Provider for AdonisJS
 icon: prisma.png
 name: prisma
 npm: "@wahyubucil/adonis-prisma"
 repo: wahyubucil/adonis-prisma
+status: stale
 type: 3rd-party
 website: https://github.com/wahyubucil/adonis-prisma

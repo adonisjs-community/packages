@@ -1,7 +1,7 @@
 category: Rendering
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Build fullstack React Router applications with AdonisJS
 icon: react-router.png
 name: react-adonisjs

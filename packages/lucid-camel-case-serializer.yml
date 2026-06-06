@@ -1,10 +1,11 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Camel cased serialization for Lucid models
 name: lucid-camel-case-serializer
 npm: "@adonify/lucid-camel-case-serializer"
 repo: AdonifyCode/lucid-camel-case-serializer
+status: stale
 type: 3rd-party
 website: https://github.com/AdonifyCode/lucid-camel-case-serializer

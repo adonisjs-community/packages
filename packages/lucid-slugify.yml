@@ -1,7 +1,7 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Generate unique slugs for your Lucid models
 icon: adonis.png
 name: lucid-slugify

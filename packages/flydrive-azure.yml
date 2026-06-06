@@ -1,7 +1,7 @@
 category: Storage
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Flydrive - Azure blob storage driver
 icon: azure.png
 name: flydrive-azure

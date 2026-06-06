@@ -1,7 +1,7 @@
 category: Authentication
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: AdonisJS 6 Ally Vk.com (Vkontakte.ru) Driver
 icon: vk.png
 name: adonis6-ally-vk

@@ -1,8 +1,8 @@
 category: Testing
 compatibility:
   adonis:
-    "5": ^5.0.0
-    "6": ^6.0.0
+    "5": 5.x
+    "6": 6.x
 description: File system plugin for writing assertions for files and directories
 icon: japa.png
 name: file-system

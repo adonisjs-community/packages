@@ -1,10 +1,11 @@
 category: Messaging
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: The easiest way to send notifications in AdonisJS
 name: verful-notifications
 npm: "@verful/notifications"
 repo: verful/adonis-notifications#master
+status: stale
 type: 3rd-party
 website: https://github.com/verful/adonis-notifications/tree/master

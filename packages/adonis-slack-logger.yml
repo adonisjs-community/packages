@@ -1,7 +1,7 @@
 category: Monitoring
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Package logger send to slack for AdonisJS
 icon: slack.png
 name: adonis-slack-logger

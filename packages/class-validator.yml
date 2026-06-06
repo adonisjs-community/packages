@@ -1,10 +1,11 @@
 category: Extensions
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Class validator for adonis framework
 name: class-validator
 npm: adonis-class-validator
 repo: tnkemdilim/adonis-class-validator
+status: stale
 type: 3rd-party
 website: https://github.com/tnkemdilim/adonis-class-validator

@@ -1,8 +1,8 @@
 category: Testing
 compatibility:
   adonis:
-    "5": ^5.0.0
-    "6": ^6.0.0
+    "5": 5.x
+    "6": 6.x
 description: Browser client built on top of Playwright for writing end to end tests
 icon: japa.png
 name: browser-client

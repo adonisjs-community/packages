@@ -1,7 +1,7 @@
 category: Payment
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Adonis Shopkeeper provides an expressive, fluent interface to
   Stripe's subscription billing services.
 icon: foadonis.png

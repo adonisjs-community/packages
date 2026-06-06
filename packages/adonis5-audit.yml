@@ -1,11 +1,12 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Utility to easily audit models in AdonisJS
 icon: audit.png
 name: adonis5-audit
 npm: adonis5-audit
 repo: ks-labs/adonis5-audit
+status: stale
 type: 3rd-party
 website: https://github.com/ks-labs/adonis5-audit

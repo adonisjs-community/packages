@@ -1,11 +1,12 @@
 category: Storage
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Google cloud storage driver for AdonisJS drive
 icon: gcs.png
 name: drive-gcs
 npm: "@adonisjs/drive-gcs"
 repo: adonisjs/drive-gcs#develop
+status: stale
 type: official
 website: https://github.com/adonisjs/drive-gcs

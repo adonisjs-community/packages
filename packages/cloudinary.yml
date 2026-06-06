@@ -1,11 +1,12 @@
 category: Storage
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: A Cloudinary Wrapper for Adonis 5
 icon: cloudinary.png
 name: cloudinary
 npm: adonisjs-cloudinary
 repo: liam-edwards/adonisjs-cloudinary#master
+status: stale
 type: 3rd-party
 website: https://github.com/liam-edwards/adonisjs-cloudinary

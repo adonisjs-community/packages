@@ -1,7 +1,7 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Nested set model implementation for AdonisJS, similar to laravel-nestedset
 name: adonisjs-nested-set
 npm: adonisjs-nested-set

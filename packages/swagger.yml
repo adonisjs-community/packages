@@ -1,11 +1,12 @@
 category: DevTools
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Swagger provider for AdonisJS 5
 icon: swagger.png
 name: swagger
 npm: adonis5-swagger
 repo: reg2005/adonis5-swagger#master
+status: stale
 type: 3rd-party
 website: https://github.com/reg2005/adonis5-swagger

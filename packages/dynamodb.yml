@@ -1,11 +1,12 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: A DynamoDB (Dyngoose) wrapper for AdonisJS
 icon: dynamodb.png
 name: dynamodb
 npm: adonis-dynamodb
 repo: Melchyore/adonis-dynamodb#master
+status: stale
 type: 3rd-party
 website: https://github.com/Melchyore/adonis-dynamodb/tree/master

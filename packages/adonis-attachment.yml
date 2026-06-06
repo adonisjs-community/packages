@@ -1,7 +1,7 @@
 category: Database
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Transform any field in your Lucid model into an attachment data
   type, automatically generating various sizes and formats.
 name: adonis-attachment

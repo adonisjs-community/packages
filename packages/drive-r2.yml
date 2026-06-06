@@ -1,7 +1,7 @@
 category: Storage
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Drive Driver for Cloudflare R2
 icon: cloudflare.png
 name: drive-r2

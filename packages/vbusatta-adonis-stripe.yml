@@ -1,7 +1,7 @@
 category: Payment
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Provider for AdonisJS 6. Simplifies Stripe integration with
   webhooks and services.
 icon: stripe6.png

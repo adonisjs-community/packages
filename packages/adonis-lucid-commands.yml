@@ -1,7 +1,7 @@
 category: Database
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: A set of commands to help you manage your databases.
 name: adonis-lucid-commands
 npm: "@jrmc/adonis-lucid-commands"

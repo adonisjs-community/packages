@@ -1,8 +1,8 @@
 category: Security
 compatibility:
   adonis:
-    "5": ^5.0.0
-    "6": ^6.0.0
+    "5": 5.x
+    "6": 6.x
 description: A middleware for AdonisJS to keep web applications secure from
   common web attacks
 icon: adonis.png

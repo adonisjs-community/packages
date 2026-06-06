@@ -1,11 +1,12 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Turn any field on your Lucid model to an attachment data type
 icon: adonis.png
 name: attachment-lite
 npm: "@adonisjs/attachment-lite"
 repo: adonisjs/attachment-lite#develop
+status: stale
 type: official
 website: https://github.com/adonisjs/attachment-lite

@@ -1,11 +1,12 @@
 category: Messaging
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: GrammY Web Framework Adapter for AdonisJS
 icon: telegram.png
 name: adonisjs-grammy
 npm: adonisjs-grammy
 repo: sooluh/adonisjs-grammy
+status: stale
 type: 3rd-party
 website: https://github.com/sooluh/adonisjs-grammy

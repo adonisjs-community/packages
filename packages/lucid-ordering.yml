@@ -1,10 +1,11 @@
 category: Database
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Simple ordering for Lucid models with AdonisJS
 name: lucid-ordering
 npm: "@adonify/lucid-ordering"
 repo: AdonifyCode/lucid-ordering
+status: stale
 type: 3rd-party
 website: https://github.com/AdonifyCode/lucid-ordering

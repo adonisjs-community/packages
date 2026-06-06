@@ -1,10 +1,11 @@
 category: Extensions
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Unopinionated scheduler for Adonis
 name: adonis-scheduler
 npm: "@stouder-io/adonis-scheduler"
 repo: Xstoudi/adonis-scheduler
+status: stale
 type: 3rd-party
 website: https://github.com/Xstoudi/adonis-scheduler

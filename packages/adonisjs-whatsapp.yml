@@ -1,11 +1,12 @@
 category: Messaging
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Connect your WhatsApp Cloud API with AdonisJS
 icon: whatsapp.png
 name: adonisjs-whatsapp
 npm: adonisjs-whatsapp
 repo: sooluh/adonisjs-whatsapp
+status: stale
 type: 3rd-party
 website: https://github.com/sooluh/adonisjs-whatsapp

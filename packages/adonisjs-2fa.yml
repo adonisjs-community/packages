@@ -1,10 +1,11 @@
 category: Authentication
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: A Two Factor Authentication Helper for AdonisJS
 name: adonisjs-2fa
 npm: "@mdsadique-inam/adonisjs-2fa"
 repo: mdsadique-inam/adonisjs-2fa
+status: stale
 type: 3rd-party
 website: https://github.com/mdsadique-inam/adonisjs-2fa/tree/main

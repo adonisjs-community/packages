@@ -1,7 +1,7 @@
 category: Extensions
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: BullMQ integration for AdonisJS, with FlowJobs, Telemetry, UI
   Dashboard, and more.
 icon: redis.png

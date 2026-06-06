@@ -1,7 +1,7 @@
 category: Authentication
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: A Microsoft driver for AdonisJS Ally
 icon: microsoft.png
 name: tpointurier-ally-microsoft

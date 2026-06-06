@@ -1,7 +1,7 @@
 category: DevTools
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Generate OpenAPI V3 compliant specifications using decorators
 icon: foadonis.png
 name: foadonis-openapi

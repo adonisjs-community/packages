@@ -1,7 +1,7 @@
 category: Authentication
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: A Two Factor Authentication Helper for AdonisJS
 name: adonis-2fa
 npm: "@nulix/adonis-2fa"

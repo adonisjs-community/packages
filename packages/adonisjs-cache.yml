@@ -1,7 +1,7 @@
 category: Storage
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Official caching module for AdonisJS framework
 name: adonisjs-cache
 npm: "@adonisjs/cache"

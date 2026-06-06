@@ -1,11 +1,12 @@
 category: Extensions
 compatibility:
   adonis:
-    "5": ^5.0.0
+    "5": 5.x
 description: Plugin & adapter for AdminJS
 icon: adminjs.png
 name: adminjs
 npm: adminjs-adonis
 repo: chirgjin/adminjs-adonis
+status: stale
 type: 3rd-party
 website: https://github.com/SoftwareBrothers/adminjs

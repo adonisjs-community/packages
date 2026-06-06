@@ -1,10 +1,11 @@
 category: Extensions
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Queue system based on BullMQ for AdonisJS v6 with bullboard
 name: acidiney-bull-queue
 npm: "@acidiney/bull-queue"
 repo: acidiney/bull-queue
+status: stale
 type: 3rd-party
 website: https://github.com/acidiney/bull-queue

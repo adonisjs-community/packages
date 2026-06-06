@@ -1,7 +1,7 @@
 category: Database
 compatibility:
   adonis:
-    "6": ^6.0.0
+    "6": 6.x
 description: Audit your Lucid models with ease.
 name: adonis-auditing
 npm: "@stouder-io/adonis-auditing"

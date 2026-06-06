@@ -1,8 +1,8 @@
 category: Testing
 compatibility:
   adonis:
-    "5": ^5.0.0
-    "6": ^6.0.0
+    "5": 5.x
+    "6": 6.x
 description: Browser and API testing client for Japa. Built on top of Playwright
 icon: japa.png
 name: api-client
