@@ -11,9 +11,16 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      - name: Mint GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.BOT_APP_ID }}
+          private-key: ${{ secrets.BOT_APP_PRIVATE_KEY }}
+
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.BOT_PAT }}
+          token: ${{ steps.app-token.outputs.token }}
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
@@ -34,11 +41,11 @@ jobs:
       - name: Open PRs for ticked items
         if: steps.ticked.outputs.ids != ''
         env:
-          GH_TOKEN: ${{ secrets.BOT_PAT }}
-          GITHUB_TOKEN: ${{ secrets.BOT_PAT }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
+          git config user.email '${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
           for id in ${{ steps.ticked.outputs.ids }}; do
             branch="bot/healthcheck/$id"
             if git ls-remote --exit-code --heads origin "$branch" >/dev/null; then
