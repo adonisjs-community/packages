@@ -1,0 +1,14 @@
+archived: false
+category: Database
+compatibility:
+  adonis:
+    "6": ^21.0.0
+    "7": ^22.0.0
+description: SQL ORM built on top of Active Record pattern
+github: https://github.com/adonisjs/lucid
+icon: lucid.svg
+name: lucid
+npm: "@adonisjs/lucid"
+repo: adonisjs/lucid
+type: official
+website: https://lucid.adonisjs.com/docs/introduction
