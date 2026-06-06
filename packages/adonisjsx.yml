@@ -2,6 +2,7 @@ category: Rendering
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: JSX as the main view engine for AdonisJS
 icon: jsx.png
 name: adonisjsx

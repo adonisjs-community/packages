@@ -2,6 +2,7 @@ category: Authentication
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Authentication with JWT token for AdonisJS
 name: adonisjs-jwt
 npm: "@maximemrf/adonisjs-jwt"

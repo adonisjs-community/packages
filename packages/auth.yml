@@ -3,6 +3,7 @@ compatibility:
   adonis:
     "5": 5.x
     "6": 6.x
+    "7": 7.x
 description: Offical authentication provider for Adonis framework
 icon: adonis.png
 name: auth

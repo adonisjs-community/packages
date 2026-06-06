@@ -2,6 +2,7 @@ category: Extensions
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Job processing for AdonisJS
 name: adonisjs-jobs
 npm: adonisjs-jobs

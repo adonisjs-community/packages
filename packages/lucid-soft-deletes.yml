@@ -3,6 +3,7 @@ compatibility:
   adonis:
     "5": 5.x
     "6": 6.x
+    "7": 7.x
 description: Addon for soft deletes AdonisJS Lucid ORM
 name: lucid-soft-deletes
 npm: adonis-lucid-soft-deletes

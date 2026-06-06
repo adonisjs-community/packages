@@ -2,6 +2,7 @@ category: Communication
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: RPC / End-to-end typesafe client For AdonisJS, Ziggy-like helpers
 icon: tuyau.png
 name: tuyau

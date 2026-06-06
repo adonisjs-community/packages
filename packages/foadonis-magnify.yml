@@ -2,6 +2,7 @@ category: Database
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Plug and play full-text search for your Adonis application.
 icon: foadonis.png
 name: foadonis-magnify

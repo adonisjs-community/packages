@@ -2,6 +2,7 @@ category: Rendering
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Transpile HTML x-tags into Edge.js components
 name: edge-tags
 npm: edge-tags

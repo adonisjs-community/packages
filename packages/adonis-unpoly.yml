@@ -2,6 +2,7 @@ category: Extensions
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Provider and middleware unpoly for adonisjs
 icon: unpoly.png
 name: adonis-unpoly

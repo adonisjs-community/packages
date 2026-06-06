@@ -2,6 +2,7 @@ category: Authentication
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: A Strava driver for AdonisJS Ally
 icon: strava.png
 name: julienbenac-ally-strava

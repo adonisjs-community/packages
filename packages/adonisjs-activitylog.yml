@@ -2,6 +2,7 @@ category: Monitoring
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Log activity inside your AdonisJS app
 name: adonisjs-activitylog
 npm: "@holoyan/adonisjs-activitylog"

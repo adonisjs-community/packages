@@ -2,6 +2,7 @@ category: Authentication
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: A GererMesAffaires driver for AdonisJS Ally
 icon: gerermesaffaires.png
 name: julienbenac-ally-gerermesaffaires

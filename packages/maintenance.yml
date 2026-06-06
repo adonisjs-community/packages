@@ -3,6 +3,7 @@ compatibility:
   adonis:
     "5": 5.x
     "6": 6.x
+    "7": 7.x
 description: A maintenance mode for the AdonisJS framework
 name: maintenance
 npm: adonisjs-maintenance

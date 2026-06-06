@@ -2,6 +2,7 @@ category: Communication
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Create GraphQL APIs powered by Apollo with Adonis
 icon: foadonis.png
 name: foadonis-graphql

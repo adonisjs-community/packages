@@ -3,6 +3,7 @@ compatibility:
   adonis:
     "5": 5.x
     "6": 6.x
+    "7": 7.x
 description: File system plugin for writing assertions for files and directories
 icon: japa.png
 name: file-system

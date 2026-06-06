@@ -2,6 +2,7 @@ category: Authorization
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Role permissions system for AdonisJs V6+
 name: adonisjs-permissions
 npm: "@holoyan/adonisjs-permissions"

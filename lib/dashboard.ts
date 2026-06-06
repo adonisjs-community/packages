@@ -3,12 +3,10 @@ import type { DashboardItem, DashboardItemCategory, AutoUpdate } from "./healthc
 const HEADER_MARKER = "<!-- @adonisjs-bot:dashboard:v1 -->";
 
 const SECTION_TITLES: Record<DashboardItemCategory, string> = {
-  "compat-bump": "Compatibility bumps",
-  "new-major": "New AdonisJS major support",
   stale: "Status changes",
 };
 
-const SECTION_ORDER: DashboardItemCategory[] = ["compat-bump", "new-major", "stale"];
+const SECTION_ORDER: DashboardItemCategory[] = ["stale"];
 
 export interface RenderInput {
   items: DashboardItem[];

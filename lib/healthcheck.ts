@@ -3,7 +3,6 @@ import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { globby } from "globby";
 import pLimit from "p-limit";
-import semver from "semver";
 import { parse as parseYaml, stringify as stringifyYaml } from "yaml";
 import { STALE_MONTHS, monthsBetween } from "./health-thresholds.ts";
 import {
@@ -27,7 +26,7 @@ export interface AutoUpdate {
   patch: Partial<PackageInfo>;
 }
 
-export type DashboardItemCategory = "compat-bump" | "new-major" | "stale";
+export type DashboardItemCategory = "stale";
 
 export interface DashboardItem {
   id: string;
@@ -94,58 +93,13 @@ function isStaleCandidate(
   return inactive && !claimsCurrent;
 }
 
-function computeDashboardItems(
-  pkg: PackageInfo,
-  data: PackageHealthData,
-  currentAdonisMajor: number,
-  isStale: boolean,
-): DashboardItem[] {
+function computeDashboardItems(pkg: PackageInfo, isStale: boolean): DashboardItem[] {
   const items: DashboardItem[] = [];
 
-  // a. compat bump — latest npm version no longer satisfies the highest-declared major's range
-  if (data.newLatestNpmVersion) {
-    const majors = Object.keys(pkg.compatibility.adonis)
-      .map((k) => parseInt(k, 10))
-      .filter((n) => !Number.isNaN(n))
-      .sort((a, b) => b - a);
-    const highest = majors[0];
-    if (highest !== undefined) {
-      const declared = pkg.compatibility.adonis[String(highest)];
-      if (declared && !semver.satisfies(data.newLatestNpmVersion, declared)) {
-        const merged = `${declared} || ^${data.newLatestNpmVersion}`;
-        items.push({
-          id: `bump-${pkg.name}-adonis-${highest}-${data.newLatestNpmVersion}`,
-          packageName: pkg.name,
-          category: "compat-bump",
-          title: `Bump \`${pkg.name}\` compat.adonis.${highest} to include \`^${data.newLatestNpmVersion}\``,
-          yamlPatch: {
-            compatibility: {
-              adonis: { ...pkg.compatibility.adonis, [String(highest)]: merged },
-            },
-          },
-        });
-      }
-    }
-  }
-
-  // b. new major — current AdonisJS major isn't declared and the package isn't archived/stale
-  const claimsCurrent = String(currentAdonisMajor) in pkg.compatibility.adonis;
-  if (!claimsCurrent && !data.ghArchived && !isStale) {
-    const v = data.newLatestNpmVersion ?? "0.0.0";
-    items.push({
-      id: `new-major-${pkg.name}-${currentAdonisMajor}`,
-      packageName: pkg.name,
-      category: "new-major",
-      title: `Add \`adonis ${currentAdonisMajor}\` compat to \`${pkg.name}\``,
-      yamlPatch: {
-        compatibility: {
-          adonis: { ...pkg.compatibility.adonis, [String(currentAdonisMajor)]: `^${v}` },
-        },
-      },
-    });
-  }
-
-  // c. stale — bot proposes, never auto-applies
+  // Stale verdict — bot proposes, never auto-applies. The only dashboard category.
+  // The bot does NOT propose compat-bumps (compat values are now adonis-major labels,
+  // not the package's own semver) or new-major adds (claiming support for a new
+  // adonis major is the package author's call, not the registry maintainer's).
   if (isStale && pkg.status !== "stale") {
     items.push({
       id: `stale-${pkg.name}`,
@@ -180,7 +134,7 @@ export async function healthcheck(): Promise<HealthcheckResult> {
           autoUpdates.push({ name, patch });
 
           const stale = isStaleCandidate(pkg, data, currentAdonisMajor);
-          dashboardItems.push(...computeDashboardItems(pkg, data, currentAdonisMajor, stale));
+          dashboardItems.push(...computeDashboardItems(pkg, stale));
         } catch (err) {
           errors.push({ packageName: name, error: err as Error });
         }

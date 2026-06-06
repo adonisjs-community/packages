@@ -2,6 +2,7 @@ category: Database
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: A wrapper for ClickHouse with support for migrations, seeders,
   templates, and more.
 icon: adonisjs-clickhouse.png

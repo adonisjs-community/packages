@@ -2,6 +2,7 @@ category: Extensions
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Use your AdonisJs routes in your Inertia.js application
 name: izzyjs-route
 npm: "@izzyjs/route"

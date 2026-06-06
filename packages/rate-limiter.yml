@@ -2,6 +2,7 @@ category: Security
 compatibility:
   adonis:
     "5": 5.x
+    "7": 7.x
 description: Rate limiting package for AdonisJS framework
 icon: adonis.png
 name: rate-limiter

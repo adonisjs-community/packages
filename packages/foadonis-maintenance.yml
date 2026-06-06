@@ -2,6 +2,7 @@ category: Extensions
 compatibility:
   adonis:
     "6": 6.x
+    "7": 7.x
 description: Safely set your Adonis application in maintenance mode.
 icon: foadonis.png
 name: foadonis-maintenance

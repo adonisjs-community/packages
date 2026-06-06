@@ -2,6 +2,7 @@ category: DevTools
 compatibility:
   adonis:
     "5": 5.x
+    "7": 7.x
 description: Auto-Generator swagger docs for AdonisJS
 icon: swagger.png
 name: autoswagger
