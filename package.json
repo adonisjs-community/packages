@@ -1,0 +1,38 @@
+{
+  "name": "@adonisjs/packages",
+  "version": "0.1.0",
+  "description": "Registry of AdonisJS packages",
+  "license": "MIT",
+  "type": "module",
+  "main": "./db.json",
+  "files": ["db.json"],
+  "scripts": {
+    "sync": "node --env-file=.env --experimental-strip-types lib/cli.ts sync",
+    "sync:ci": "node --experimental-strip-types lib/cli.ts sync",
+    "build": "node --experimental-strip-types lib/cli.ts build",
+    "release": "pnpm build && npm publish --access public",
+    "lint": "oxlint lib",
+    "format": "oxfmt lib",
+    "check": "oxlint lib && oxfmt --check lib && pnpm build"
+  },
+  "devDependencies": {
+    "@octokit/rest": "^22.0.0",
+    "@poppinss/cliui": "^6.4.0",
+    "@poppinss/prompts": "^3.1.4",
+    "@poppinss/utils": "^6.10.0",
+    "@types/node": "^22.10.0",
+    "@types/semver": "^7.7.0",
+    "globby": "^14.0.0",
+    "ky": "^1.7.0",
+    "oxfmt": "latest",
+    "oxlint": "latest",
+    "p-limit": "^7.0.0",
+    "semver": "^7.7.0",
+    "typescript": "^5.7.0",
+    "yaml": "^2.7.0"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}

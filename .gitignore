@@ -1,0 +1,7 @@
+node_modules/
+db.json
+.env
+/docs/
+.idea/
+.DS_Store
+*.log
