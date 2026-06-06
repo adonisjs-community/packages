@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: A Server-Sent-Event module bringing real-time capabilities to AdonisJS.
 icon: adonis.png
+lastCommitAt: 2026-06-03T08:15:25Z
+lastReleaseAt: 2026-03-03T13:58:14.737Z
+latestNpmVersion: 3.0.1
 name: transmit
 npm: "@adonisjs/transmit"
 repo: adonisjs/transmit
+status: healthy
 type: official
 website: https://github.com/adonisjs/transmit/tree/main

@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: WebSocket provider using Socket.IO
 icon: socketio.png
+lastCommitAt: 2022-05-24T12:11:20Z
+lastReleaseAt: 2022-05-24T12:11:55.649Z
+latestNpmVersion: 0.2.0
 name: socket.io
 npm: "@ruby184/adonis-socket.io"
 repo: ruby184/adonis-socket.io

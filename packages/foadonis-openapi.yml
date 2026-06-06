@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Generate OpenAPI V3 compliant specifications using decorators
 icon: foadonis.png
+lastCommitAt: 2026-05-28T17:59:13Z
+lastReleaseAt: 2026-03-09T11:37:16.807Z
+latestNpmVersion: 1.0.1
 name: foadonis-openapi
 npm: "@foadonis/openapi"
 repo: FriendsOfAdonis/FriendsOfAdonis
+status: healthy
 type: 3rd-party
 website: https://friendsofadonis.com/docs/openapi

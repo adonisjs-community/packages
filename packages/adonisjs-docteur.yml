@@ -4,11 +4,15 @@ compatibility:
     - "7": 7.x
 description: AdonisJS cold start profiler - analyze and optimize your application boot time
 github: https://github.com/densetsuuu/adonisjs-docteur
+lastCommitAt: 2026-05-28T12:32:54Z
+lastReleaseAt: 2026-04-21T08:17:30.253Z
+latestNpmVersion: 0.2.0
 maintainers:
   - github: densetsuuu
     name: densetsuuu
 name: adonisjs-docteur
 npm: "@densetsuuu/docteur"
 repo: densetsuuu/adonisjs-docteur
+status: healthy
 type: 3rd-party
 website: https://github.com/densetsuuu/adonisjs-docteur

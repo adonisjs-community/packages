@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Plugin & adapter for AdminJS
 icon: adminjs.png
+lastCommitAt: 2023-08-29T18:31:08Z
+lastReleaseAt: 2023-02-21T11:23:43.551Z
+latestNpmVersion: 1.2.0
 name: adminjs
 npm: adminjs-adonis
 repo: chirgjin/adminjs-adonis

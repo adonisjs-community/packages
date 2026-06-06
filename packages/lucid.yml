@@ -6,8 +6,12 @@ compatibility:
 description: SQL ORM built on top of Active Record pattern
 github: https://github.com/adonisjs/lucid
 icon: lucid.svg
+lastCommitAt: 2026-06-05T03:26:51Z
+lastReleaseAt: 2026-04-05T09:22:26.892Z
+latestNpmVersion: 22.4.2
 name: lucid
 npm: "@adonisjs/lucid"
 repo: adonisjs/lucid
+status: healthy
 type: official
 website: https://lucid.adonisjs.com/docs/introduction

@@ -5,8 +5,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: A maintenance mode for the AdonisJS framework
+lastCommitAt: 2026-02-26T20:55:26Z
+lastReleaseAt: 2026-02-26T20:55:52.881Z
+latestNpmVersion: 3.0.0
 name: maintenance
 npm: adonisjs-maintenance
 repo: MichaelBelgium/adonisjs-maintenance#master
+status: healthy
 type: 3rd-party
 website: https://github.com/MichaelBelgium/adonisjs-maintenance

@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: A Node Resque Queue for AdonisJS v6
 icon: resque.png
+lastCommitAt: 2025-07-16T07:09:56Z
+lastReleaseAt: 2024-10-19T06:40:30.481Z
+latestNpmVersion: 2.0.2
 name: resque
 npm: adonis-resque
 repo: shiny/adonis-resque
+status: healthy
 type: 3rd-party
 website: https://github.com/shiny/adonis-resque

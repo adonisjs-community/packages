@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Japa reporter that generates an html file with all tests
+lastCommitAt: 2022-04-18T15:36:13Z
+lastReleaseAt: 2022-04-18T15:37:03.341Z
+latestNpmVersion: 1.0.0
 name: table-driven-html-reporter
 npm: table-driven-html-reporter
 repo: guntribam/table-driven-html-reporter

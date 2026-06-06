@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Stripe provider for AdonisJS
 icon: stripe.png
+lastCommitAt: 2023-04-24T17:41:08Z
+lastReleaseAt: 2023-04-24T17:41:47.198Z
+latestNpmVersion: 1.0.7
 name: stripe
 npm: "@mezielabs/adonis-stripe"
 repo: mezielabs/adonis-stripe#master

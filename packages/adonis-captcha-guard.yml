@@ -4,6 +4,9 @@ compatibility:
     "6": 6.x
 description: Cloudflare Turnstile and Google reCAPTCHA v3 for AdonisJS v6
 icon: adonis-captcha-guard.png
+lastCommitAt: 2024-05-15T03:01:29Z
+lastReleaseAt: 2024-05-15T03:01:56.984Z
+latestNpmVersion: 1.0.1
 name: adonis-captcha-guard
 npm: adonis-captcha-guard
 repo: monojson/adonis-captcha-guard

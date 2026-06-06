@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
     "6": 6.x
 description: Advance RPC Provider for Adonisjs, based on Redis pub/sub transport
+lastCommitAt: 2024-02-15T06:48:40Z
+lastReleaseAt: 2024-02-14T19:14:17.230Z
+latestNpmVersion: 1.0.0
 name: advance-redis-rpc
 npm: "@craftnotion/adonisjs-advance-redis-rpc"
 repo: craftnotion/adonis-advance-redis-rpc

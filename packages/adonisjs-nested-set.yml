@@ -4,8 +4,12 @@ compatibility:
     "5": 5.x
     "7": 7.x
 description: Nested set model implementation for AdonisJS, similar to laravel-nestedset
+lastCommitAt: 2025-12-07T12:21:46Z
+lastReleaseAt: 2025-12-07T12:25:44.592Z
+latestNpmVersion: 0.2.0
 name: adonisjs-nested-set
 npm: adonisjs-nested-set
 repo: Redleks/adonisjs-nested-set
+status: healthy
 type: 3rd-party
 website: https://github.com/Redleks/adonisjs-nested-set/tree/main

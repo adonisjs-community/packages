@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "6": 6.x
 description: Rabbitmq provider for adonisjs v6 framework
+lastCommitAt: 2024-06-09T23:10:25Z
+lastReleaseAt: 2024-06-09T23:10:50.707Z
+latestNpmVersion: 1.0.8
 name: rabbitmq
 npm: rabbitmq-adonis-v6
 repo: mvargaslandolfi1993/rabbitmq-adonis-v6

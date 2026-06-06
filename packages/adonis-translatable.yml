@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "6": 6.x
 description: Translatable fields for AdonisJS models.
+lastCommitAt: 2024-10-07T22:34:58Z
+lastReleaseAt: 2024-10-07T22:35:38.516Z
+latestNpmVersion: 1.1.0
 name: adonis-translatable
 npm: "@stouder-io/adonis-translatable"
 repo: StouderIO/adonis-translatable

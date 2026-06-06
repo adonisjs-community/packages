@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: A Twitch driver for AdonisJS Ally
 icon: twitch.png
+lastCommitAt: 2023-03-27T08:43:15Z
+lastReleaseAt: 2023-03-27T08:40:41.368Z
+latestNpmVersion: 1.0.4
 name: ally-twitch
 npm: adonis-ally-twitch
 repo: mrgmnn/ally-twitch-driver

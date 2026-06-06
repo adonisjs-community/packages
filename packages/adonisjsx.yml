@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: JSX as the main view engine for AdonisJS
 icon: jsx.png
+lastCommitAt: 2026-01-03T12:05:39Z
+lastReleaseAt: 2026-01-03T12:04:58.952Z
+latestNpmVersion: 0.6.2
 name: adonisjsx
 npm: adonisjsx
 repo: macieklad/adonisjsx
+status: healthy
 type: 3rd-party
 website: https://github.com/macieklad/adonisjsx/tree/main

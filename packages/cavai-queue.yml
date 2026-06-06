@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Queue package for Adonis V5. Comes with built-in database driver
   and allows easy extension with custom drivers
+lastCommitAt: 2025-07-09T09:37:42Z
+lastReleaseAt: 2025-07-09T09:40:29.664Z
+latestNpmVersion: 4.0.1
 name: cavai-queue
 npm: "@cavai/adonis-queue"
 repo: cavai-research/Adonis-Queue
+status: healthy
 type: 3rd-party
 website: https://github.com/cavai-research/Adonis-Queue

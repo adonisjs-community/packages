@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: A Microsoft driver for AdonisJS Ally
 icon: microsoft.png
+lastCommitAt: 2026-05-21T11:07:00Z
+lastReleaseAt: 2026-05-21T11:13:58.953Z
+latestNpmVersion: 1.0.0
 name: tpointurier-ally-microsoft
 npm: "@tpointurier/ally-microsoft"
 repo: ThibaultPointurier/ally-microsoft
+status: healthy
 type: 3rd-party
 website: https://github.com/ThibaultPointurier/ally-microsoft

@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: RPC / End-to-end typesafe client For AdonisJS, Ziggy-like helpers
 icon: tuyau.png
+lastCommitAt: 2026-03-18T20:35:59Z
+lastReleaseAt: 2025-07-05T23:44:29.280Z
+latestNpmVersion: 0.2.10
 name: tuyau
 npm: "@tuyau/client"
 repo: Julien-R44/tuyau#main
+status: healthy
 type: 3rd-party
 website: https://tuyau.julr.dev

@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Create GraphQL APIs powered by Apollo with Adonis
 icon: foadonis.png
+lastCommitAt: 2026-05-28T17:59:13Z
+lastReleaseAt: 2026-03-09T11:37:24.029Z
+latestNpmVersion: 1.0.1
 name: foadonis-graphql
 npm: "@foadonis/graphql"
 repo: FriendsOfAdonis/FriendsOfAdonis
+status: healthy
 type: 3rd-party
 website: https://friendsofadonis.com/docs/graphql

@@ -4,6 +4,9 @@ compatibility:
     "6": 6.x
 description: A Twitch driver for AdonisJS Ally
 icon: twitch.png
+lastCommitAt: 2024-02-27T22:39:17Z
+lastReleaseAt: 2024-01-28T19:30:23.397Z
+latestNpmVersion: 0.1.2
 name: rlanz-ally-twitch
 npm: "@rlanz/ally-twitch"
 repo: RomainLanz/ally-twitch

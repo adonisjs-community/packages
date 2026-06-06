@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: A DynamoDB (Dyngoose) wrapper for AdonisJS
 icon: dynamodb.png
+lastCommitAt: 2022-05-27T22:15:59Z
+lastReleaseAt: 2022-03-27T17:45:06.150Z
+latestNpmVersion: 1.2.3
 name: dynamodb
 npm: adonis-dynamodb
 repo: Melchyore/adonis-dynamodb#master

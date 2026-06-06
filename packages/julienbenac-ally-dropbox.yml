@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: A Dropbox driver for AdonisJS Ally
 icon: dropbox.png
+lastCommitAt: 2025-10-04T18:05:46Z
+lastReleaseAt: 2025-10-04T18:05:46.329Z
+latestNpmVersion: 1.0.5
 name: julienbenac-ally-dropbox
 npm: "@julienbenac/ally-dropbox"
 repo: julienbenac/ally-dropbox
+status: healthy
 type: 3rd-party
 website: https://github.com/julienbenac/ally-dropbox

@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Request throttler provider for AdonisJS 5
+lastCommitAt: 2023-11-04T20:13:06Z
+lastReleaseAt: 2023-11-04T20:19:57.414Z
+latestNpmVersion: 3.0.3
 name: request-throttler
 npm: adonis-request-throttler
 repo: reg2005/adonis-request-throttler#master

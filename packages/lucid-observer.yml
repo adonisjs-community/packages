@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Observer package for AdonisJS V5 Lucid ORM
+lastCommitAt: 2022-07-28T12:39:10Z
+lastReleaseAt: 2022-07-27T15:34:57.977Z
+latestNpmVersion: 1.0.2
 name: lucid-observer
 npm: "@melchyore/adonis-lucid-observer"
 repo: Melchyore/adonis-lucid-observer#master

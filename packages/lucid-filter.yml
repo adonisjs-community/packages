@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
     "6": 6.x
 description: Addon for filtering AdonisJS Lucid ORM
+lastCommitAt: 2024-07-05T06:46:17Z
+lastReleaseAt: 2024-07-05T06:46:26.532Z
+latestNpmVersion: 5.2.0
 name: lucid-filter
 npm: adonis-lucid-filter
 repo: lookinlab/adonis-lucid-filter#develop

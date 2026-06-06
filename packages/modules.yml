@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Modules for AdonisJS
 icon: modules.png
+lastCommitAt: 2026-05-22T12:30:23Z
+lastReleaseAt: 2026-05-22T12:28:39.407Z
+latestNpmVersion: 2.0.0
 name: modules
 npm: "@adonisjs-community/modules"
 repo: adonisjs-community/modules#main
+status: healthy
 type: 3rd-party
 website: https://github.com/adonisjs-community/modules/tree/main

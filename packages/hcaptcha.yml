@@ -5,6 +5,9 @@ compatibility:
 description: A middleware for AdonisJS to keep your web applications secure from
   bots using hCaptcha
 icon: hcaptcha.png
+lastCommitAt: 2023-05-27T02:21:46Z
+lastReleaseAt: 2023-05-27T02:22:08.887Z
+latestNpmVersion: 0.2.4
 name: hcaptcha
 npm: adonisjs-hcaptcha
 repo: NerdyLuffy/adonisjs-hcaptcha

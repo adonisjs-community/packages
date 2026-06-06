@@ -6,8 +6,12 @@ compatibility:
     "7": 7.x
 description: Offical authentication provider for Adonis framework
 icon: adonis.png
+lastCommitAt: 2026-04-09T12:59:25Z
+lastReleaseAt: 2026-04-09T12:59:24.816Z
+latestNpmVersion: 10.1.0
 name: auth
 npm: "@adonisjs/auth"
 repo: adonisjs/auth#develop
+status: healthy
 type: official
 website: https://github.com/adonisjs/auth

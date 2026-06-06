@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: An Apple driver for AdonisJS Ally
 icon: apple.png
+lastCommitAt: 2022-04-15T06:54:22Z
+lastReleaseAt: 2022-04-15T06:56:45.368Z
+latestNpmVersion: 1.1.0
 name: ally-apple
 npm: "@bitkidd/adonis-ally-apple"
 repo: bitkidd/adonis-ally-apple

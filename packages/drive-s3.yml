@@ -4,9 +4,12 @@ compatibility:
     "5": 5.x
 description: S3 driver for AdonisJS drive
 icon: s3.png
+lastCommitAt: 2023-09-04T07:10:03Z
+lastReleaseAt: 2023-09-04T07:44:32.153Z
+latestNpmVersion: 1.3.3
 name: drive-s3
 npm: "@adonisjs/drive-s3"
 repo: adonisjs/drive-s3#develop
-status: stale
+status: archived
 type: official
 website: https://github.com/adonisjs/drive-s3

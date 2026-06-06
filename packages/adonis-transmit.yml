@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: SSE provider for AdonisJS 5
+lastCommitAt: 2024-07-11T20:59:22Z
+lastReleaseAt: 2023-09-27T12:53:04.016Z
+latestNpmVersion: 1.0.6
 name: adonis-transmit
 npm: "@brighthustle/adonis-transmit"
 repo: Bright-Hustle/adonis-transmit#master

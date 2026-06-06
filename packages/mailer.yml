@@ -7,8 +7,12 @@ compatibility:
 description: Mail provider for adonis framework and has support for all common
   mailing services to send emails
 icon: adonis.png
+lastCommitAt: 2026-06-02T04:18:52Z
+lastReleaseAt: 2026-06-02T04:18:51.680Z
+latestNpmVersion: 10.3.0
 name: mailer
 npm: "@adonisjs/mail"
 repo: adonisjs/mail#develop
+status: healthy
 type: official
 website: https://github.com/adonisjs/mail

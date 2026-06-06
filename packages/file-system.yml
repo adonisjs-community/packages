@@ -6,8 +6,12 @@ compatibility:
     "7": 7.x
 description: File system plugin for writing assertions for files and directories
 icon: japa.png
+lastCommitAt: 2025-12-13T09:56:24Z
+lastReleaseAt: 2025-12-13T09:56:23.984Z
+latestNpmVersion: 3.0.0
 name: file-system
 npm: "@japa/file-system"
 repo: japa/file-system#develop
+status: healthy
 type: official
 website: https://github.com/japa/file-system/tree/develop

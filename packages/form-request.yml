@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Use dedicated classes to authorize and validate requests
+lastCommitAt: 2022-08-20T13:15:26Z
+lastReleaseAt: 2022-08-20T00:10:07.880Z
+latestNpmVersion: 1.0.0
 name: form-request
 npm: "@melchyore/adonis-form-request"
 repo: Melchyore/adonis-form-request

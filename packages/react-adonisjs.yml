@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Build fullstack React Router applications with AdonisJS
 icon: react-router.png
+lastCommitAt: 2025-10-06T18:51:47Z
+lastReleaseAt: 2025-10-05T10:03:33.909Z
+latestNpmVersion: 1.0.6
 name: react-adonisjs
 npm: "@matstack/react-adonisjs"
 repo: jarle/react-adonisjs
+status: healthy
 type: 3rd-party
 website: https://matstack.dev/react-adonisjs/

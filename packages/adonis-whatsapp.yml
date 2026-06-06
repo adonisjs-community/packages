@@ -6,6 +6,9 @@ compatibility:
 description: Whatsapp API integration with multiple business api numbers
   compatibility (database provider).
 icon: whatsapp.png
+lastCommitAt: 2024-07-12T07:28:59Z
+lastReleaseAt: 2024-09-24T13:46:24.207Z
+latestNpmVersion: 1.1.4
 name: adonis-whatsapp
 npm: "@brighthustle/adonisjs-whatsapp"
 repo: CodeSyncr/adonisjs-whatsapp#develop

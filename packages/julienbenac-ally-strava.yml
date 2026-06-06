@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: A Strava driver for AdonisJS Ally
 icon: strava.png
+lastCommitAt: 2025-10-04T18:05:05Z
+lastReleaseAt: 2025-10-04T18:04:47.795Z
+latestNpmVersion: 1.0.2
 name: julienbenac-ally-strava
 npm: "@julienbenac/ally-strava"
 repo: julienbenac/ally-strava
+status: healthy
 type: 3rd-party
 website: https://github.com/julienbenac/ally-strava

@@ -6,8 +6,12 @@ compatibility:
     "7": 7.x
 description: Browser and API testing client for Japa. Built on top of Playwright
 icon: japa.png
+lastCommitAt: 2026-01-09T12:39:52Z
+lastReleaseAt: 2026-01-09T12:39:51.981Z
+latestNpmVersion: 3.2.1
 name: api-client
 npm: "@japa/api-client"
 repo: japa/api-client#develop
+status: healthy
 type: official
 website: https://github.com/japa/api-client/tree/develop

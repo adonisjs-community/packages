@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Flydrive - Azure blob storage driver
 icon: azure.png
+lastCommitAt: 2026-06-02T11:00:02Z
+lastReleaseAt: 2026-06-02T11:00:48.742Z
+latestNpmVersion: 1.0.0
 name: flydrive-azure
 npm: flydrive-azure
 repo: necessarylion/flydrive-azure-driver
+status: healthy
 type: 3rd-party
 website: https://github.com/necessarylion/flydrive-azure-driver

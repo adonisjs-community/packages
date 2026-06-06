@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: A ClickHouse provider for AdonisJS
 icon: clickhouse.png
+lastCommitAt: 2025-06-17T09:54:53Z
+lastReleaseAt: 2024-03-07T12:53:26.154Z
+latestNpmVersion: 1.0.1
 name: clickhouse
 npm: adonis-clickhouse
 repo: shiny/adonis-clickhouse
+status: healthy
 type: 3rd-party
 website: https://github.com/shiny/adonis-clickhouse

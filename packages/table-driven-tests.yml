@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Japa plugin to use markdown tables as input test data
+lastCommitAt: 2022-04-19T00:06:11Z
+lastReleaseAt: 2022-04-19T00:06:28.587Z
+latestNpmVersion: 0.0.6
 name: table-driven-tests
 npm: table-driven-tests
 repo: guntribam/table-driven-tests

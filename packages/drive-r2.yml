@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Drive Driver for Cloudflare R2
 icon: cloudflare.png
+lastCommitAt: 2025-04-24T14:49:27Z
+lastReleaseAt: 2025-04-24T14:49:51.498Z
+latestNpmVersion: 1.0.4
 name: drive-r2
 npm: adonis-drive-r2
 repo: ndianabasi/adonis-drive-r2
+status: healthy
 type: 3rd-party
 website: https://github.com/ndianabasi/adonis-drive-r2

@@ -5,6 +5,9 @@ compatibility:
 description: Turn any field on your Lucid model to an attachment data type while
   automatically generating variant sizes for the attached image files and
   preview image for video and document files
+lastCommitAt: 2024-09-05T21:59:12Z
+lastReleaseAt: 2023-10-13T21:31:28.870Z
+latestNpmVersion: 1.1.2
 name: attachment-advanced
 npm: "@jrmc/attachment-advanced"
 repo: batosai/attachment-advanced#master

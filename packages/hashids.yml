@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Generate YouTube-like IDs for AdonisJS Lucid models
+lastCommitAt: 2023-07-15T08:31:09Z
+lastReleaseAt: 2023-07-15T08:31:23.421Z
+latestNpmVersion: 1.0.2
 name: hashids
 npm: "@fcoded/adonis-hashids"
 repo: eokwukwe/adonis-hashids

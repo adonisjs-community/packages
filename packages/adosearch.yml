@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: typed, deeply nested database search for adonis.js applications
+lastCommitAt: 2023-09-23T13:36:19Z
+lastReleaseAt: 2023-09-23T06:59:36.137Z
+latestNpmVersion: 0.1.95
 name: adosearch
 npm: adosearch
 repo: Obapelumi/adosearch

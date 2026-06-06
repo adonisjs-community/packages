@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Utility to easily audit models in AdonisJS
 icon: audit.png
+lastCommitAt: 2024-04-25T20:45:23Z
+lastReleaseAt: 2024-04-25T20:55:29.210Z
+latestNpmVersion: 4.0.0
 name: adonis5-audit
 npm: adonis5-audit
 repo: ks-labs/adonis5-audit

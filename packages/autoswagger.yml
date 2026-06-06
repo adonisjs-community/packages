@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Auto-Generator swagger docs for AdonisJS
 icon: swagger.png
+lastCommitAt: 2025-04-27T17:01:59Z
+lastReleaseAt: 2025-04-27T17:02:29.950Z
+latestNpmVersion: 3.73.0
 name: autoswagger
 npm: adonis-autoswagger
 repo: ad-on-is/adonis-autoswagger#master
+status: healthy
 type: 3rd-party
 website: https://github.com/ad-on-is/adonis-autoswagger

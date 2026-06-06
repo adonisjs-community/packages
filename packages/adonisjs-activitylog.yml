@@ -4,8 +4,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Log activity inside your AdonisJS app
+lastCommitAt: 2026-03-13T21:26:29Z
+lastReleaseAt: 2026-03-13T21:27:00.653Z
+latestNpmVersion: 1.0.0
 name: adonisjs-activitylog
 npm: "@holoyan/adonisjs-activitylog"
 repo: holoyan/adonisjs-activitylog#master
+status: healthy
 type: 3rd-party
 website: https://github.com/holoyan/adonisjs-activitylog

@@ -6,8 +6,12 @@ compatibility:
     "7": 7.x
 description: Write assertions for TypeScript types
 icon: japa.png
+lastCommitAt: 2025-12-13T11:13:25Z
+lastReleaseAt: 2025-12-13T11:13:24.424Z
+latestNpmVersion: 2.0.4
 name: expect-type
 npm: "@japa/expect-type"
 repo: japa/expect-type#develop
+status: healthy
 type: official
 website: https://github.com/japa/expect-type/tree/develop

@@ -5,8 +5,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Task scheduler for AdonisJS
+lastCommitAt: 2026-04-13T12:10:28Z
+lastReleaseAt: 2026-04-13T12:12:44.346Z
+latestNpmVersion: 2.8.0
 name: adonisjs-scheduler
 npm: adonisjs-scheduler
 repo: KABBOUCHI/adonisjs-scheduler#master
+status: healthy
 type: 3rd-party
 website: https://github.com/KABBOUCHI/adonisjs-scheduler

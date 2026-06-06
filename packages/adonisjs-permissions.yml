@@ -4,8 +4,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Role permissions system for AdonisJs V6+
+lastCommitAt: 2026-05-12T17:41:18Z
+lastReleaseAt: 2026-05-12T17:44:06.132Z
+latestNpmVersion: 2.0.2
 name: adonisjs-permissions
 npm: "@holoyan/adonisjs-permissions"
 repo: holoyan/adonisjs-permissions#master
+status: healthy
 type: 3rd-party
 website: https://github.com/holoyan/adonisjs-permissions

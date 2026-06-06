@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Google reCAPTCHA v2 for AdonisJS
 icon: recaptcha.png
+lastCommitAt: 2021-07-08T08:44:39Z
+lastReleaseAt: 2021-06-27T17:25:24.323Z
+latestNpmVersion: 2.0.1
 name: recaptcha-v2
 npm: adonis-recaptcha2
 repo: lookinlab/adonis-recaptcha2#develop

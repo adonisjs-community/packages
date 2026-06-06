@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: AdonisJS 6 Ally Yandex Driver
 icon: yandex.png
+lastCommitAt: 2024-12-06T10:03:27Z
+lastReleaseAt: 2024-12-06T10:04:45.443Z
+latestNpmVersion: 1.0.3
 name: adonis6-ally-yandex
 npm: adonis6_ally_yandex
 repo: dmitry-makovsky/adonis6_ally_yandex
+status: healthy
 type: 3rd-party
 website: https://github.com/dmitry-makovsky/adonis6_ally_yandex/tree/main

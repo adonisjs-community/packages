@@ -5,6 +5,9 @@ compatibility:
     "6": 6.x
 description: ⛵Generate a ready-to-use local docker environment for your Adonis application
 icon: sail.png
+lastCommitAt: 2024-01-17T19:25:46Z
+lastReleaseAt: 2024-01-08T21:02:19.860Z
+latestNpmVersion: 1.0.0
 name: sail
 npm: adonis-sail
 repo: Julien-R44/adonis-sail

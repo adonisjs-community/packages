@@ -5,8 +5,12 @@ compatibility:
 description: Provider for AdonisJS 6. Simplifies Stripe integration with
   webhooks and services.
 icon: stripe6.png
+lastCommitAt: 2025-01-08T13:19:32Z
+lastReleaseAt: 2025-01-08T13:19:53.550Z
+latestNpmVersion: 0.2.1
 name: vbusatta-adonis-stripe
 npm: "@vbusatta/adonis-stripe"
 repo: vittoriobusatta/adonis-stripe
+status: archived
 type: 3rd-party
 website: https://github.com/vittoriobusatta/adonis-stripe/tree/main

@@ -5,8 +5,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Internationalization for AdonisJS apps
+lastCommitAt: 2026-06-02T07:29:20Z
+lastReleaseAt: 2026-06-02T07:29:20.267Z
+latestNpmVersion: 3.0.1
 name: i18n
 npm: "@adonisjs/i18n"
 repo: adonisjs/i18n#develop
+status: healthy
 type: official
 website: https://github.com/adonisjs/i18n

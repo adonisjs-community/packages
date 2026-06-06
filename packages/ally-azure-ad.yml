@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: An Azure AD driver for AdonisJS Ally
 icon: azure.png
+lastCommitAt: 2023-02-22T17:44:48Z
+lastReleaseAt: 2023-02-22T17:44:59.516Z
+latestNpmVersion: 0.3.1
 name: ally-azure-ad
 npm: adonis-ally-azure-ad
 repo: AlexanderYW/adonis-ally-azure-ad

@@ -7,8 +7,12 @@ compatibility:
 description: A middleware for AdonisJS to keep web applications secure from
   common web attacks
 icon: adonis.png
+lastCommitAt: 2026-02-25T07:47:33Z
+lastReleaseAt: 2026-02-25T07:47:33.126Z
+latestNpmVersion: 9.0.0
 name: shield
 npm: "@adonisjs/shield"
 repo: adonisjs/shield#develop
+status: healthy
 type: official
 website: https://github.com/adonisjs/shield

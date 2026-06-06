@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Connect your WhatsApp Cloud API with AdonisJS
 icon: whatsapp.png
+lastCommitAt: 2024-03-07T06:19:20Z
+lastReleaseAt: 2023-10-18T01:12:40.484Z
+latestNpmVersion: 0.2.6
 name: adonisjs-whatsapp
 npm: adonisjs-whatsapp
 repo: sooluh/adonisjs-whatsapp

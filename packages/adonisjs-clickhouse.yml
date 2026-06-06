@@ -6,8 +6,12 @@ compatibility:
 description: A wrapper for ClickHouse with support for migrations, seeders,
   templates, and more.
 icon: adonisjs-clickhouse.png
+lastCommitAt: 2026-04-15T14:38:54Z
+lastReleaseAt: 2026-04-15T14:39:27.487Z
+latestNpmVersion: 2.0.0
 name: adonisjs-clickhouse
 npm: adonisjs-clickhouse
 repo: flozdra/adonisjs-clickhouse
+status: healthy
 type: 3rd-party
 website: https://github.com/flozdra/adonisjs-clickhouse/

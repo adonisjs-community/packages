@@ -3,8 +3,12 @@ compatibility:
   adonis:
     "6": 6.x
 description: Audit your Lucid models with ease.
+lastCommitAt: 2026-02-09T21:42:04Z
+lastReleaseAt: 2024-09-09T14:54:09.415Z
+latestNpmVersion: 1.1.8
 name: adonis-auditing
 npm: "@stouder-io/adonis-auditing"
 repo: StouderIO/adonis-auditing
+status: archived
 type: 3rd-party
 website: https://adonis-auditing.stouder.io/

@@ -4,8 +4,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Websocket provider for AdonisJS
+lastCommitAt: 2025-04-21T11:00:15Z
+lastReleaseAt: 2025-04-21T11:00:53.877Z
+latestNpmVersion: 0.2.3
 name: adonisjs-websocket
 npm: adonisjs-websocket
 repo: KABBOUCHI/adonisjs-websocket#master
+status: healthy
 type: 3rd-party
 website: https://github.com/KABBOUCHI/adonisjs-websocket/tree/master

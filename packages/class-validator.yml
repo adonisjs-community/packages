@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Class validator for adonis framework
+lastCommitAt: 2021-07-29T10:19:20Z
+lastReleaseAt: 2021-07-29T10:20:34.543Z
+latestNpmVersion: 0.2.0
 name: class-validator
 npm: adonis-class-validator
 repo: tnkemdilim/adonis-class-validator

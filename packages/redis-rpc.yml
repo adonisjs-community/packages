@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Simple RPC Provider for Adonis 5, based on Redis pub/sub transport
+lastCommitAt: 2021-06-16T14:40:53Z
+lastReleaseAt: 2021-06-16T14:30:07.823Z
+latestNpmVersion: 1.0.3
 name: redis-rpc
 npm: adonis5-redis-rpc
 repo: reg2005/adonis5-redis-rpc#master

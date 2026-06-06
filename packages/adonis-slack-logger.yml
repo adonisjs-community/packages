@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Package logger send to slack for AdonisJS
 icon: slack.png
+lastCommitAt: 2025-11-27T07:29:59Z
+lastReleaseAt: 2025-11-27T07:29:58.796Z
+latestNpmVersion: 1.2.4
 name: adonis-slack-logger
 npm: "@adityadarma/adonis-logger-slack"
 repo: adityadarma/adonis-logger-slack
+status: healthy
 type: 3rd-party
 website: https://github.com/adityadarma/adonis-logger-slack

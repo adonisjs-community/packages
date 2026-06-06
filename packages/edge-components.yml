@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: The most popular, free and open-source Tailwind CSS component
   library in edge template engine with daisyUI and Alpine.js
+lastCommitAt: 2025-05-22T21:03:52Z
+lastReleaseAt: 2025-05-22T21:04:36.323Z
+latestNpmVersion: 3.0.0
 name: edge-components
 npm: "@jrmc/edge-components"
 repo: batosai/edge-components#main
+status: healthy
 type: 3rd-party
 website: https://edge-components.jrmc.dev/

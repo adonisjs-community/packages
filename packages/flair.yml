@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: AdonisJS authentication scaffolding
+lastCommitAt: 2022-06-23T07:17:17Z
+lastReleaseAt: 2022-06-23T07:18:03.682Z
+latestNpmVersion: 1.0.6
 name: flair
 npm: "@mezielabs/flair"
 repo: mezielabs/flair

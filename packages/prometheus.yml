@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: 📊 Prometheus integration for AdonisJS
 icon: prometheus.png
+lastCommitAt: 2026-03-02T23:16:18Z
+lastReleaseAt: 2026-03-02T23:16:01.450Z
+latestNpmVersion: 2.1.0
 name: prometheus
 npm: "@julr/adonisjs-prometheus"
 repo: Julien-R44/adonis5-prometheus
+status: healthy
 type: 3rd-party
 website: https://github.com/Julien-R44/adonisjs-prometheus

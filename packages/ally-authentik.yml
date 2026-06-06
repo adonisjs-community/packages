@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Authentik driver for AdonisJS Ally
 icon: goauthentik.png
+lastCommitAt: 2025-01-01T05:07:36Z
+lastReleaseAt: 2025-01-01T05:13:41.905Z
+latestNpmVersion: 2.0.0
 name: ally-authentik
 npm: adonis-ally-authentik
 repo: alfianazizi/ally-driver-authentik
+status: healthy
 type: 3rd-party
 website: https://github.com/alfianazizi/ally-driver-authentik

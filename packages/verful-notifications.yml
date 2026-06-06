@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: The easiest way to send notifications in AdonisJS
+lastCommitAt: 2024-06-10T17:03:26Z
+lastReleaseAt: 2024-06-10T17:03:38.180Z
+latestNpmVersion: 2.3.1
 name: verful-notifications
 npm: "@verful/notifications"
 repo: verful/adonis-notifications#master

@@ -4,8 +4,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Add breadcrumbs to AdonisJS routes only by defining titles.
+lastCommitAt: 2024-12-06T17:17:36Z
+lastReleaseAt: 2024-12-06T17:17:20.944Z
+latestNpmVersion: 2.1.0
 name: adonis-breadcrumbs
 npm: "@artian-techs/adonis-breadcrumbs"
 repo: Artian-Techs/adonis-breadcrumbs
+status: healthy
 type: 3rd-party
 website: https://adonis-breadcrumbs.pages.dev/

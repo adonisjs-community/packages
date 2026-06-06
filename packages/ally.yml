@@ -6,8 +6,12 @@ compatibility:
     "7": 7.x
 description: Social authentication provider for AdonisJS
 icon: adonis.png
+lastCommitAt: 2026-04-13T17:21:38Z
+lastReleaseAt: 2026-04-13T17:21:37.964Z
+latestNpmVersion: 6.3.0
 name: ally
 npm: "@adonisjs/ally"
 repo: adonisjs/ally#develop
+status: healthy
 type: official
 website: https://github.com/adonisjs/ally

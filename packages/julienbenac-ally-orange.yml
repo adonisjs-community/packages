@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: An Orange driver for AdonisJS Ally
 icon: orange.png
+lastCommitAt: 2025-10-04T18:06:06Z
+lastReleaseAt: 2025-10-04T18:05:48.852Z
+latestNpmVersion: 1.0.8
 name: julienbenac-ally-orange
 npm: "@julienbenac/ally-orange"
 repo: julienbenac/ally-orange
+status: healthy
 type: 3rd-party
 website: https://github.com/julienbenac/ally-orange

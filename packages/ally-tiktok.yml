@@ -4,6 +4,9 @@ compatibility:
     "6": 6.x
 description: An TikTok driver for AdonisJS Ally
 icon: tiktok.png
+lastCommitAt: 2024-03-22T10:29:14Z
+lastReleaseAt: 2024-03-22T10:29:45.997Z
+latestNpmVersion: 1.0.2
 name: ally-tiktok
 npm: adonis-ally-tiktok
 repo: monojson/adonis-ally-tiktok

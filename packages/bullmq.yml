@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Adonis 5 bullmq provider
 icon: bullmq.png
+lastCommitAt: 2023-05-18T09:20:08Z
+lastReleaseAt: 2023-05-18T09:11:03.776Z
+latestNpmVersion: 3.2.0
 name: bullmq
 npm: adonis5-bullmq
 repo: reg2005/adonis5-bullmq#master

@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Manage your datatable server side for AdonisJS
 icon: datatables.png
+lastCommitAt: 2025-11-23T15:16:26Z
+lastReleaseAt: 2025-11-23T15:16:25.078Z
+latestNpmVersion: 2.0.6
 name: adonis-datatables
 npm: "@adityadarma/adonis-datatables"
 repo: adityadarma/adonis-datatables
+status: healthy
 type: 3rd-party
 website: https://github.com/adityadarma/adonis-datatables

@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: A driver of AdonisJS Ally for vk.com
 icon: vk.png
+lastCommitAt: 2021-08-11T14:31:33Z
+lastReleaseAt: 2021-08-11T14:31:49.258Z
+latestNpmVersion: 0.1.1
 name: ally-vk
 npm: adonis-ally-vk
 repo: lookinlab/adonis-ally-vk#master

@@ -6,7 +6,11 @@ compatibility:
     "7": 7.x
 description: 💻 Official VS Code Extension for AdonisJS
 icon: vscode.png
+lastCommitAt: 2025-07-20T19:44:21Z
+lastReleaseAt: 2013-06-27T17:54:27.534Z
+latestNpmVersion: 0.1.0
 name: vscode-extension
 repo: Julien-R44/adonis-vscode-extension
+status: healthy
 type: official
 website: https://marketplace.visualstudio.com/items?itemName=jripouteau.adonis-vscode-extension

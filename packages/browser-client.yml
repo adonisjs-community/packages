@@ -6,8 +6,12 @@ compatibility:
     "7": 7.x
 description: Browser client built on top of Playwright for writing end to end tests
 icon: japa.png
+lastCommitAt: 2026-01-09T07:26:03Z
+lastReleaseAt: 2026-01-09T07:26:02.264Z
+latestNpmVersion: 2.3.0
 name: browser-client
 npm: "@japa/browser-client"
 repo: japa/browser-client#develop
+status: healthy
 type: official
 website: https://github.com/japa/browser-client/tree/develop

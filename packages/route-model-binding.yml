@@ -5,6 +5,9 @@ compatibility:
 description: Bind the route parameters with Lucid models and automatically query
   the database
 icon: adonis.png
+lastCommitAt: 2022-07-14T06:27:56Z
+lastReleaseAt: 2024-05-09T22:45:39.867Z
+latestNpmVersion: 2.0.0-0
 name: route-model-binding
 npm: "@adonisjs/route-model-binding"
 repo: adonisjs/route-model-binding

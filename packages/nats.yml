@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Scale your Adonis 5 application to infinity with microservices
   based on classes (with code completion from client side!) and NATS transport
+lastCommitAt: 2022-10-27T17:40:46Z
+lastReleaseAt: 2022-10-27T17:40:26.401Z
+latestNpmVersion: 1.1.11
 name: nats
 npm: adonis5-nats
 repo: reg2005/adonis5-nats#master

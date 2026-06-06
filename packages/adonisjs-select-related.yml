@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Select related functionality for lucid
+lastCommitAt: 2023-09-12T14:10:23Z
+lastReleaseAt: 2023-09-12T14:09:45.426Z
+latestNpmVersion: 1.2.2
 name: adonisjs-select-related
 npm: adonisjs-select-related
 repo: chirgjin/adonisjs-select-related

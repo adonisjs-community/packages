@@ -4,8 +4,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: A set of commands to help you manage your databases.
+lastCommitAt: 2026-04-29T16:29:01Z
+lastReleaseAt: 2026-01-31T16:24:38.181Z
+latestNpmVersion: 1.1.1
 name: adonis-lucid-commands
 npm: "@jrmc/adonis-lucid-commands"
 repo: batosai/adonis-lucid-commands#main
+status: healthy
 type: 3rd-party
 website: https://github.com/batosai/adonis-lucid-commands

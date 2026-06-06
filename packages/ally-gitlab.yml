@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: A GitLab driver of AdonisJS Ally
 icon: gitlab.png
+lastCommitAt: 2022-01-13T19:08:53Z
+lastReleaseAt: 2022-01-13T20:09:18.205Z
+latestNpmVersion: 1.1.0
 name: ally-gitlab
 npm: adonis-ally-gitlab
 repo: rubenmoya/adonis-ally-gitlab

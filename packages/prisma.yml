@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Prismxa Provider for AdonisJS
 icon: prisma.png
+lastCommitAt: 2023-10-31T07:55:07Z
+lastReleaseAt: 2023-10-31T07:55:30.655Z
+latestNpmVersion: 1.0.1
 name: prisma
 npm: "@wahyubucil/adonis-prisma"
 repo: wahyubucil/adonis-prisma

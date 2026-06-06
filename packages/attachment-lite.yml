@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Turn any field on your Lucid model to an attachment data type
 icon: adonis.png
+lastCommitAt: 2023-09-22T07:01:12Z
+lastReleaseAt: 2023-09-22T07:01:32.281Z
+latestNpmVersion: 1.0.8
 name: attachment-lite
 npm: "@adonisjs/attachment-lite"
 repo: adonisjs/attachment-lite#develop

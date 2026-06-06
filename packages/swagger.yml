@@ -4,6 +4,9 @@ compatibility:
     "5": 5.x
 description: Swagger provider for AdonisJS 5
 icon: swagger.png
+lastCommitAt: 2022-04-21T13:25:10Z
+lastReleaseAt: 2022-04-21T13:25:43.234Z
+latestNpmVersion: 1.4.1
 name: swagger
 npm: adonis5-swagger
 repo: reg2005/adonis5-swagger#master

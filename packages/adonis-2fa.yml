@@ -4,8 +4,12 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: A Two Factor Authentication Helper for AdonisJS
+lastCommitAt: 2025-09-14T12:54:39Z
+lastReleaseAt: 2025-09-14T13:19:50.851Z
+latestNpmVersion: 1.1.1
 name: adonis-2fa
 npm: "@nulix/adonis-2fa"
 repo: nulix-dev/adonis-2fa
+status: healthy
 type: 3rd-party
 website: https://adonis-2fa.netlify.app/docs/introduction

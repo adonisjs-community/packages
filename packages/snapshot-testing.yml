@@ -6,8 +6,12 @@ compatibility:
     "7": 7.x
 description: Snapshot testing plugin for Japa
 icon: japa.png
+lastCommitAt: 2025-12-13T10:38:57Z
+lastReleaseAt: 2025-12-13T10:38:56.595Z
+latestNpmVersion: 2.0.10
 name: snapshot-testing
 npm: "@japa/snapshot"
 repo: japa/snapshot
+status: healthy
 type: official
 website: https://github.com/japa/snapshot

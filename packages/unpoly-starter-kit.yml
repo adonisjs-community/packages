@@ -4,7 +4,11 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: AdonisJS, Unpoly, AlpineJS, DaisyUI...
+lastCommitAt: 2026-03-14T16:58:49Z
+lastReleaseAt: 2013-06-27T17:54:27.534Z
+latestNpmVersion: 0.1.0
 name: unpoly-starter-kit
 repo: batosai/adonis-starter-kit
+status: healthy
 type: 3rd-party
 website: https://github.com/batosai/adonis-starter-kit

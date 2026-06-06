@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "5": 5.x
 description: Simple ordering for Lucid models with AdonisJS
+lastCommitAt: 2022-11-26T04:46:16Z
+lastReleaseAt: 2022-11-26T04:46:40.796Z
+latestNpmVersion: 1.1.0
 name: lucid-ordering
 npm: "@adonify/lucid-ordering"
 repo: AdonifyCode/lucid-ordering

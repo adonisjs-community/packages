@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: A GererMesAffaires driver for AdonisJS Ally
 icon: gerermesaffaires.png
+lastCommitAt: 2025-10-03T19:47:31Z
+lastReleaseAt: 2025-10-03T19:47:30.183Z
+latestNpmVersion: 1.1.11
 name: julienbenac-ally-gerermesaffaires
 npm: "@julienbenac/ally-gerermesaffaires"
 repo: julienbenac/ally-gerermesaffaires
+status: healthy
 type: 3rd-party
 website: https://github.com/julienbenac/ally-gerermesaffaires

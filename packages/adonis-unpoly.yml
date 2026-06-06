@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: Provider and middleware unpoly for adonisjs
 icon: unpoly.png
+lastCommitAt: 2025-07-08T20:34:49Z
+lastReleaseAt: 2025-07-08T20:35:29.583Z
+latestNpmVersion: 1.2.0
 name: adonis-unpoly
 npm: "@jrmc/adonis-unpoly"
 repo: batosai/adonis-unpoly#main
+status: healthy
 type: 3rd-party
 website: https://github.com/batosai/adonis-unpoly

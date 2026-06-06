@@ -5,6 +5,9 @@ compatibility:
 description: Build monolithic AdonisJS applications with a modern, React-based
   frontend stack
 icon: radonis.png
+lastCommitAt: 2023-03-29T08:06:25Z
+lastReleaseAt: 2023-03-07T11:01:57.154Z
+latestNpmVersion: 5.0.4
 name: radonis
 npm: "@microeinhundert/radonis"
 repo: microeinhundert/radonis

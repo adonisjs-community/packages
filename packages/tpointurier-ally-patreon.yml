@@ -5,8 +5,12 @@ compatibility:
     "7": 7.x
 description: A Patreon driver for AdonisJS Ally
 icon: patreon.png
+lastCommitAt: 2025-09-21T14:21:54Z
+lastReleaseAt: 2025-09-21T16:25:17.616Z
+latestNpmVersion: 0.0.1
 name: tpointurier-ally-patreon
 npm: "@tpointurier/ally-patreon"
 repo: ThibaultPointurier/ally-patreon
+status: healthy
 type: 3rd-party
 website: https://github.com/ThibaultPointurier/ally-patreon

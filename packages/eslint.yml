@@ -4,9 +4,12 @@ compatibility:
     "5": 5.x
 description: ESLint rules for AdonisJs applications and addons
 icon: eslint.png
+lastCommitAt: 2022-09-15T07:45:55Z
+lastReleaseAt: 2022-09-15T07:46:56.478Z
+latestNpmVersion: 2.1.1
 name: eslint
 npm: eslint-plugin-adonis
 repo: adonisjs-community/eslint-plugin-adonis#develop
-status: stale
+status: archived
 type: official
 website: https://github.com/adonisjs-community/eslint-plugin-adonis

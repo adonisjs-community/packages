@@ -4,6 +4,9 @@ compatibility:
     "6": 6.x
 description: A Blizzard/Battle.net driver for AdonisJS Ally
 icon: blizzard.png
+lastCommitAt: 2024-10-04T15:12:29Z
+lastReleaseAt: 2024-10-04T15:12:43.802Z
+latestNpmVersion: 0.1.5
 name: ally-blizzard
 npm: ally-blizzard
 repo: tom-laplace/ally-blizzard

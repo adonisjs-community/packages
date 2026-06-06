@@ -3,6 +3,9 @@ compatibility:
   adonis:
     "6": 6.x
 description: A Two Factor Authentication Helper for AdonisJS
+lastCommitAt: 2024-05-07T03:09:43Z
+lastReleaseAt: 2024-05-06T09:29:36.068Z
+latestNpmVersion: 0.2.1
 name: adonisjs-2fa
 npm: "@mdsadique-inam/adonisjs-2fa"
 repo: mdsadique-inam/adonisjs-2fa
