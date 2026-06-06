@@ -4,25 +4,89 @@
 
 The metadata is maintained as YAML files in [`./packages`](./packages) and built into a single `db.json` published as [`@adonisjs/packages`](https://www.npmjs.com/package/@adonisjs/packages) on npm. The [adonisjs.com/packages](https://adonisjs.com/packages) page consumes that data.
 
-## Add or update a package
+## Add a package
 
-1. Add a yml file at `packages/<name>.yml` with the minimum fields:
+The entire flow takes ~3 minutes if you have Node ≥22.6 and pnpm installed.
 
-   ```yaml
-   name: <name>
-   repo: <github-org>/<repo-name>
-   icon: <name>.svg
-   website: https://...
-   category: Database
-   compatibility:
-     adonis:
-       '6': 6.x
-       '7': 7.x
-   ```
+### 1. Fork and clone
 
-2. Add an icon at `icons/<name>.svg` (or `.png`).
-3. Run `pnpm sync <name> <repo>` to auto-fill `description`, `npm`, `github`, `type`, `maintainers`.
-4. Commit both files and open a PR.
+```bash
+gh repo fork adonisjs-community/packages --clone --remote
+cd packages
+pnpm install
+```
+
+### 2. Pick a unique `<name>`
+
+The package's filename (and `name` field) — the slug shown on `adonisjs.com/packages`. Conventions:
+- lowercase, no spaces, hyphens for word breaks (e.g., `bull-queue`, not `bull_queue`)
+- for scoped npm packages like `@nemoventures/adonis-jobs`, drop the scope: `nemo-adonisjs-jobs` or similar
+- must not collide with anything already in `/packages/`
+
+### 3. Add a square icon
+
+Drop an SVG or PNG into `/icons/`, named `<name>.svg` (or `.png`/`.jpg`/`.webp`).
+- SVGs are preferred — scale to any size, smallest file
+- ideal aspect ratio: 1:1 (square)
+- ideal source: the project's own logo (look in their docs/README)
+- if you don't have one, skip — a maintainer can add one later
+
+### 4. Write the yml
+
+Create `packages/<name>.yml` with the **manual fields only**. Everything else (`description`, `npm`, `github`, `type`, `maintainers`) is auto-filled by sync in step 5.
+
+```yaml
+name: bull-queue
+repo: rlanz/bull-queue
+icon: bull-queue.svg
+website: https://github.com/rlanz/bull-queue
+category: Messaging
+compatibility:
+  adonis:
+    '6': 6.x
+    '7': 7.x
+```
+
+Notes:
+- **`compatibility.adonis` keys** = the AdonisJS majors your package supports. Values are always `<key>.x` (literal `6.x`, `7.x`, etc. — never a semver range of your own package's versions).
+- **`website`** = the most-canonical landing page. Project's docs site if it has one; otherwise the GitHub repo URL.
+- **`category`** = pick one from the [14 categories below](#categories). If none fit, open an issue first to discuss adding a new one.
+
+### 5. Run `pnpm sync`
+
+This validates the yml, fetches `description` + `npm` + `maintainers` from upstream, and writes everything back in canonical order. Required before committing.
+
+```bash
+cp .env.example .env  # paste any GitHub PAT (no scopes needed) — raises rate limit
+pnpm sync <name> <repo>
+# e.g.: pnpm sync bull-queue rlanz/bull-queue
+```
+
+If sync errors out, fix the cause (the message is usually explicit — wrong category, missing icon, malformed compat) and re-run.
+
+### 6. Verify everything builds
+
+```bash
+pnpm check
+```
+
+Should print `Build completed`. If oxfmt complains, run `pnpm format` first then re-check.
+
+### 7. Open the PR
+
+```bash
+git checkout -b add-<name>
+git add packages/<name>.yml icons/<name>.*
+git commit -m "feat(packages): add <name>"
+git push -u origin add-<name>
+gh pr create --title "Add <name>" --body "Adds [<name>](https://github.com/<repo>) to the registry."
+```
+
+That's it. A maintainer will review and merge.
+
+### Updating an existing package
+
+Same flow, but skip step 2/3 (use the existing name/icon) and edit the existing yml. If you're only changing data that sync would refresh anyway (compat, website), just run `pnpm sync <name>` and commit the diff.
 
 ## Schema
 
