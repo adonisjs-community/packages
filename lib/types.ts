@@ -47,6 +47,7 @@ export interface SyncRegression {
 export interface SyncResult {
   package: PackageInfo;
   regressions: SyncRegression[];
+  todos: string[];
 }
 
 export interface SyncError {
@@ -60,6 +61,7 @@ export interface SyncAllResult {
   errors: SyncError[];
   regressions: SyncRegression[];
   archivedPackages: string[];
+  todos: { packageName: string; message: string }[];
 }
 
 export type SyncProgressCallback = (current: number, total: number, packageName: string) => void;

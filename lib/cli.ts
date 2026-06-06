@@ -41,13 +41,19 @@ async function runSync(args: string[]): Promise<void> {
 async function runSingleSync(name: string, repo?: string): Promise<void> {
   const action = ui.logger.action(`Syncing ${name}`).displayDuration();
   try {
-    const { package: pkg, regressions } = await sync(name, repo, true);
+    const { package: pkg, regressions, todos } = await sync(name, repo, true);
     action.succeeded();
 
     if (regressions.length > 0) {
       ui.logger.warning(`Regressions detected (${regressions.length}):`);
       for (const r of regressions) {
         ui.logger.warning(`  [${r.type}] ${r.description}`);
+      }
+    }
+    if (todos.length > 0) {
+      ui.logger.info(`TODO (${todos.length}):`);
+      for (const t of todos) {
+        ui.logger.info(`  ${t}`);
       }
     }
     if (pkg.status === "archived") {
@@ -81,6 +87,12 @@ async function runSyncAll(): Promise<void> {
   }
   if (result.archivedPackages.length > 0) {
     ui.logger.warning(`Archived repositories: ${result.archivedPackages.join(", ")}`);
+  }
+  if (result.todos.length > 0) {
+    ui.logger.info(`TODOs (${result.todos.length}):`);
+    for (const t of result.todos) {
+      ui.logger.info(`  ${t.packageName}: ${t.message}`);
+    }
   }
 
   const hasIssues =

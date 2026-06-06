@@ -47,6 +47,7 @@ async function writePackage(pkg: PackageInfo): Promise<void> {
 export async function sync(name: string, repo?: string, isNew = false): Promise<SyncResult> {
   const pkg = await loadPackage(name, isNew);
   const regressions: SyncRegression[] = [];
+  const todos: string[] = [];
   const originalCompatMajors = Object.keys(pkg.compatibility?.adonis ?? {});
 
   // 1. repo
@@ -86,7 +87,7 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
   // 6. category (hard error unless bootstrapping)
   if (!pkg.category) {
     if (isNew) {
-      console.log(`[TODO] Add a category to packages/${name}.yml`);
+      todos.push(`Add a category to packages/${name}.yml`);
     } else {
       throw new Error(`No category set for ${name}`);
     }
@@ -128,7 +129,7 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
   // 9. compatibility (hard error unless bootstrapping)
   if (!pkg.compatibility?.adonis || Object.keys(pkg.compatibility.adonis).length === 0) {
     if (isNew) {
-      console.log(`[TODO] Add compatibility.adonis to packages/${name}.yml`);
+      todos.push(`Add compatibility.adonis to packages/${name}.yml`);
     } else {
       throw new Error(`Missing compatibility.adonis for ${name}`);
     }
@@ -167,7 +168,7 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
   // 12. write yml back (sorted keys → stable diff)
   await writePackage(pkg);
 
-  return { package: pkg, regressions };
+  return { package: pkg, regressions, todos };
 }
 
 export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAllResult> {
@@ -178,6 +179,7 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
   const errors: SyncError[] = [];
   const regressions: SyncRegression[] = [];
   const archivedPackages: string[] = [];
+  const todos: { packageName: string; message: string }[] = [];
   let current = 0;
 
   await Promise.all(
@@ -187,6 +189,7 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
           const result = await sync(name);
           synced.push(name);
           regressions.push(...result.regressions);
+          for (const message of result.todos) todos.push({ packageName: name, message });
           if (result.package.status === "archived") archivedPackages.push(name);
         } catch (err) {
           errors.push({ packageName: name, error: err as Error });
@@ -203,5 +206,6 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
     errors,
     regressions,
     archivedPackages,
+    todos,
   };
 }
