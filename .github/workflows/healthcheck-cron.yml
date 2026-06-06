@@ -1,0 +1,53 @@
+name: Healthcheck (weekly)
+on:
+  schedule:
+    - cron: '0 6 * * 1'    # Mondays 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOT_PAT }}
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Run healthcheck
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_PAT }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: pnpm healthcheck:ci --apply > /tmp/dashboard.md
+
+      - name: Commit auto-updates
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if [ -n "$(git status --porcelain packages/)" ]; then
+            git add packages/
+            git commit -m 'chore(bot): weekly metadata refresh'
+            git push
+          else
+            echo "No metadata changes this week."
+          fi
+
+      - name: Upsert dashboard issue
+        env:
+          GH_TOKEN: ${{ secrets.BOT_PAT }}
+        run: |
+          ISSUE=$(gh issue list --label bot:dashboard --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -z "$ISSUE" ]; then
+            gh issue create --title 'Healthiness Dashboard' --label bot:dashboard --body-file /tmp/dashboard.md
+          else
+            gh issue edit "$ISSUE" --body-file /tmp/dashboard.md
+          fi

@@ -1,0 +1,57 @@
+name: Healthcheck Dashboard
+on:
+  issues:
+    types: [edited]
+
+jobs:
+  open-prs:
+    if: contains(github.event.issue.labels.*.name, 'bot:dashboard')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOT_PAT }}
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Find newly-ticked ids
+        id: ticked
+        env:
+          OLD_BODY: ${{ github.event.changes.body.from }}
+          NEW_BODY: ${{ github.event.issue.body }}
+        run: |
+          ids=$(pnpm --silent dashboard-diff:ci | tr '\n' ' ')
+          echo "Newly ticked: $ids"
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"
+
+      - name: Open PRs for ticked items
+        if: steps.ticked.outputs.ids != ''
+        env:
+          GH_TOKEN: ${{ secrets.BOT_PAT }}
+          GITHUB_TOKEN: ${{ secrets.BOT_PAT }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for id in ${{ steps.ticked.outputs.ids }}; do
+            branch="bot/healthcheck/$id"
+            if git ls-remote --exit-code --heads origin "$branch" >/dev/null; then
+              echo "Branch $branch exists, skipping"
+              continue
+            fi
+            git checkout -b "$branch"
+            pnpm healthcheck:ci --apply-item "$id"
+            title=$(pnpm --silent healthcheck:ci --item-title "$id")
+            git add packages/ && git commit -m "$title"
+            git push -u origin "$branch"
+            gh pr create --title "$title" --body "Triggered by: #${{ github.event.issue.number }}" --label bot:auto-pr
+            git checkout main
+          done
