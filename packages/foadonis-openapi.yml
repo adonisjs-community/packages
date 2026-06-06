@@ -1,0 +1,11 @@
+category: DevTools
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Generate OpenAPI V3 compliant specifications using decorators
+icon: foadonis.png
+name: foadonis-openapi
+npm: "@foadonis/openapi"
+repo: FriendsOfAdonis/FriendsOfAdonis
+type: 3rd-party
+website: https://friendsofadonis.com/docs/openapi

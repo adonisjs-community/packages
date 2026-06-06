@@ -1,0 +1,11 @@
+category: Database
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: A ClickHouse provider for AdonisJS
+icon: clickhouse.png
+name: clickhouse
+npm: adonis-clickhouse
+repo: shiny/adonis-clickhouse
+type: 3rd-party
+website: https://github.com/shiny/adonis-clickhouse

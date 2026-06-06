@@ -1,0 +1,10 @@
+category: Messaging
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Rabbitmq provider for adonisjs v6 framework
+name: rabbitmq
+npm: rabbitmq-adonis-v6
+repo: mvargaslandolfi1993/rabbitmq-adonis-v6
+type: 3rd-party
+website: https://github.com/mvargaslandolfi1993/rabbitmq-adonis-v6#readme

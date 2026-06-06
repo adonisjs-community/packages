@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: A GitLab driver of AdonisJS Ally
+icon: gitlab.png
+name: ally-gitlab
+npm: adonis-ally-gitlab
+repo: rubenmoya/adonis-ally-gitlab
+type: 3rd-party
+website: https://github.com/rubenmoya/adonis-ally-gitlab

@@ -1,0 +1,10 @@
+category: Database
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: AdonisJS ETL skaffold commands package - Generate ETL (Extract,
+  Transform, Load) components for your AdonisJS applications.
+name: adonis-etl
+npm: "@jrmc/adonis-etl"
+repo: batosai/adonis-etl#main
+type: 3rd-party

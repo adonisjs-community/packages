@@ -1,0 +1,10 @@
+category: Storage
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Official caching module for AdonisJS framework
+name: adonisjs-cache
+npm: "@adonisjs/cache"
+repo: adonisjs/cache
+type: official
+website: https://github.com/adonisjs/cache/tree/1.x

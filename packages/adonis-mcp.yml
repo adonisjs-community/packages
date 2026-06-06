@@ -1,0 +1,10 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: MCP (Model Context Protocol) for AdonisJS.
+name: adonis-mcp
+npm: "@jrmc/adonis-mcp"
+repo: batosai/adonis-mcp#main
+type: 3rd-party
+website: https://adonis-mcp.jrmc.dev

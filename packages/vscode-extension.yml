@@ -1,0 +1,11 @@
+category: DevTools
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: 💻 Official VS Code Extension for AdonisJS
+icon: vscode.png
+name: vscode-extension
+repo: Julien-R44/adonis-vscode-extension
+type: official
+website: https://marketplace.visualstudio.com/items?itemName=jripouteau.adonis-vscode-extension

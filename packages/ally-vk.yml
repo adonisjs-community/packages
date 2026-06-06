@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: A driver of AdonisJS Ally for vk.com
+icon: vk.png
+name: ally-vk
+npm: adonis-ally-vk
+repo: lookinlab/adonis-ally-vk#master
+type: 3rd-party
+website: https://github.com/lookinlab/adonis-ally-vk

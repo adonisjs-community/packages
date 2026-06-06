@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: An Apple driver for AdonisJS Ally
+icon: apple.png
+name: ally-apple
+npm: "@bitkidd/adonis-ally-apple"
+repo: bitkidd/adonis-ally-apple
+type: 3rd-party
+website: https://github.com/bitkidd/adonis-ally-apple

@@ -1,0 +1,10 @@
+category: Database
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Auto-preload multiple relationships when retrieving Lucid models
+name: auto-preload
+npm: "@melchyore/adonis-auto-preload"
+repo: Melchyore/adonis-auto-preload
+type: 3rd-party
+website: https://github.com/Melchyore/adonis-auto-preload

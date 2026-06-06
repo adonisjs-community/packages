@@ -1,0 +1,12 @@
+category: Testing
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Write assertions for TypeScript types
+icon: japa.png
+name: expect-type
+npm: "@japa/expect-type"
+repo: japa/expect-type#develop
+type: official
+website: https://github.com/japa/expect-type/tree/develop

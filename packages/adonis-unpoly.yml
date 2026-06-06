@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Provider and middleware unpoly for adonisjs
+icon: unpoly.png
+name: adonis-unpoly
+npm: "@jrmc/adonis-unpoly"
+repo: batosai/adonis-unpoly#main
+type: 3rd-party
+website: https://github.com/batosai/adonis-unpoly

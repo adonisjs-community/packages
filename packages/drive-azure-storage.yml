@@ -1,0 +1,11 @@
+category: Storage
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Azure storage driver for AdonisJS drive
+icon: azure.png
+name: drive-azure-storage
+npm: adonis-drive-azure-storage
+repo: AlexanderYW/Adonis-Drive-Azure-Storage#master
+type: 3rd-party
+website: https://github.com/AlexanderYW/Adonis-Drive-Azure-Storage

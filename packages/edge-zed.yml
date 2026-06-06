@@ -1,0 +1,9 @@
+category: DevTools
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Zed extension for Edge.js
+icon: zed.png
+name: edge-zed
+type: 3rd-party
+website: https://github.com/Hexacker/zed-edge

@@ -1,0 +1,11 @@
+category: Payment
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Stripe provider for AdonisJS
+icon: stripe.png
+name: stripe
+npm: "@mezielabs/adonis-stripe"
+repo: mezielabs/adonis-stripe#master
+type: 3rd-party
+website: https://github.com/mezielabs/adonis-stripe

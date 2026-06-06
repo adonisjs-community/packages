@@ -1,0 +1,11 @@
+category: Rendering
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Build fullstack React Router applications with AdonisJS
+icon: react-router.png
+name: react-adonisjs
+npm: "@matstack/react-adonisjs"
+repo: jarle/react-adonisjs
+type: 3rd-party
+website: https://matstack.dev/react-adonisjs/

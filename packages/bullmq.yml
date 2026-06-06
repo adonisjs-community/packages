@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Adonis 5 bullmq provider
+icon: bullmq.png
+name: bullmq
+npm: adonis5-bullmq
+repo: reg2005/adonis5-bullmq#master
+type: 3rd-party
+website: https://github.com/reg2005/adonis5-bullmq

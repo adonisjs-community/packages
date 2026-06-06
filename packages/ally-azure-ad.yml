@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: An Azure AD driver for AdonisJS Ally
+icon: azure.png
+name: ally-azure-ad
+npm: adonis-ally-azure-ad
+repo: AlexanderYW/adonis-ally-azure-ad
+type: 3rd-party
+website: https://github.com/AlexanderYW/adonis-ally-azure-ad

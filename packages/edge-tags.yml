@@ -1,0 +1,10 @@
+category: Rendering
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Transpile HTML x-tags into Edge.js components
+name: edge-tags
+npm: edge-tags
+repo: KABBOUCHI/edge-tags#master
+type: 3rd-party
+website: https://github.com/KABBOUCHI/edge-tags/tree/master

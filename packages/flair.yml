@@ -1,0 +1,10 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: AdonisJS authentication scaffolding
+name: flair
+npm: "@mezielabs/flair"
+repo: mezielabs/flair
+type: 3rd-party
+website: https://github.com/mezielabs/flair

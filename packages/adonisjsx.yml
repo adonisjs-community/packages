@@ -1,0 +1,11 @@
+category: Rendering
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: JSX as the main view engine for AdonisJS
+icon: jsx.png
+name: adonisjsx
+npm: adonisjsx
+repo: macieklad/adonisjsx
+type: 3rd-party
+website: https://github.com/macieklad/adonisjsx/tree/main

@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: A Node Resque Queue for AdonisJS v6
+icon: resque.png
+name: resque
+npm: adonis-resque
+repo: shiny/adonis-resque
+type: 3rd-party
+website: https://github.com/shiny/adonis-resque

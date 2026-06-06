@@ -1,0 +1,12 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Offical authentication provider for Adonis framework
+icon: adonis.png
+name: auth
+npm: "@adonisjs/auth"
+repo: adonisjs/auth#develop
+type: official
+website: https://github.com/adonisjs/auth

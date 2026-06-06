@@ -1,0 +1,11 @@
+category: Database
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Plug and play full-text search for your Adonis application.
+icon: foadonis.png
+name: foadonis-magnify
+npm: "@foadonis/magnify"
+repo: FriendsOfAdonis/FriendsOfAdonis
+type: 3rd-party
+website: https://friendsofadonis.com/docs/magnify

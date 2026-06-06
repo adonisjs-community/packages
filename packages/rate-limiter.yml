@@ -1,0 +1,11 @@
+category: Security
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Rate limiting package for AdonisJS framework
+icon: adonis.png
+name: rate-limiter
+npm: "@adonisjs/limiter"
+repo: adonisjs/limiter
+type: official
+website: https://github.com/adonisjs/limiter/tree/main

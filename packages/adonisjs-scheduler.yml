@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Task scheduler for AdonisJS
+name: adonisjs-scheduler
+npm: adonisjs-scheduler
+repo: KABBOUCHI/adonisjs-scheduler#master
+type: 3rd-party
+website: https://github.com/KABBOUCHI/adonisjs-scheduler

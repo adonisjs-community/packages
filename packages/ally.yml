@@ -1,0 +1,12 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Social authentication provider for AdonisJS
+icon: adonis.png
+name: ally
+npm: "@adonisjs/ally"
+repo: adonisjs/ally#develop
+type: official
+website: https://github.com/adonisjs/ally

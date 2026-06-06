@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Queue package for Adonis V5. Comes with built-in database driver
+  and allows easy extension with custom drivers
+name: cavai-queue
+npm: "@cavai/adonis-queue"
+repo: cavai-research/Adonis-Queue
+type: 3rd-party
+website: https://github.com/cavai-research/Adonis-Queue

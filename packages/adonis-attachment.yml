@@ -1,0 +1,11 @@
+category: Database
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Transform any field in your Lucid model into an attachment data
+  type, automatically generating various sizes and formats.
+name: adonis-attachment
+npm: "@jrmc/adonis-attachment"
+repo: batosai/adonis-attachment#main
+type: 3rd-party
+website: https://adonis-attachment.jrmc.dev

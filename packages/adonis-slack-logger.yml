@@ -1,0 +1,11 @@
+category: Monitoring
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Package logger send to slack for AdonisJS
+icon: slack.png
+name: adonis-slack-logger
+npm: "@adityadarma/adonis-logger-slack"
+repo: adityadarma/adonis-logger-slack
+type: 3rd-party
+website: https://github.com/adityadarma/adonis-logger-slack

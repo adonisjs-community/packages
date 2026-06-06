@@ -1,0 +1,10 @@
+category: Database
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Nested set model implementation for AdonisJS, similar to laravel-nestedset
+name: adonisjs-nested-set
+npm: adonisjs-nested-set
+repo: Redleks/adonisjs-nested-set
+type: 3rd-party
+website: https://github.com/Redleks/adonisjs-nested-set/tree/main

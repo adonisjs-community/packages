@@ -1,0 +1,10 @@
+category: Testing
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Japa plugin to use markdown tables as input test data
+name: table-driven-tests
+npm: table-driven-tests
+repo: guntribam/table-driven-tests
+type: 3rd-party
+website: https://github.com/guntribam/table-driven-tests

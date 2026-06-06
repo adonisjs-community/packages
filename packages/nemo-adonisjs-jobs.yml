@@ -1,0 +1,12 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: BullMQ integration for AdonisJS, with FlowJobs, Telemetry, UI
+  Dashboard, and more.
+icon: redis.png
+name: nemo-adonisjs-jobs
+npm: "@nemoventures/adonis-jobs"
+repo: "@nemoventures/adonis-jobs"
+type: 3rd-party
+website: https://github.com/nemoengineering/adonis-jobs

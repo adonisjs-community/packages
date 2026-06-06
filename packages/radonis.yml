@@ -1,0 +1,12 @@
+category: Rendering
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Build monolithic AdonisJS applications with a modern, React-based
+  frontend stack
+icon: radonis.png
+name: radonis
+npm: "@microeinhundert/radonis"
+repo: microeinhundert/radonis
+type: 3rd-party
+website: https://radonis.vercel.app/

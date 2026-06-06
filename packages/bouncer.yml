@@ -1,0 +1,12 @@
+category: Authorization
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Authorization layer for AdonisJS
+icon: adonis.png
+name: bouncer
+npm: "@adonisjs/bouncer"
+repo: adonisjs/bouncer#develop
+type: official
+website: https://github.com/adonisjs/bouncer

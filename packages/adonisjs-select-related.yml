@@ -1,0 +1,10 @@
+category: Database
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Select related functionality for lucid
+name: adonisjs-select-related
+npm: adonisjs-select-related
+repo: chirgjin/adonisjs-select-related
+type: 3rd-party
+website: https://github.com/chirgjin/adonisjs-select-related

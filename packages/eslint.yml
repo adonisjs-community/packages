@@ -1,0 +1,11 @@
+category: DevTools
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: ESLint rules for AdonisJs applications and addons
+icon: eslint.png
+name: eslint
+npm: eslint-plugin-adonis
+repo: adonisjs-community/eslint-plugin-adonis#develop
+type: official
+website: https://github.com/adonisjs-community/eslint-plugin-adonis

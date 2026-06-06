@@ -1,0 +1,10 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Add breadcrumbs to AdonisJS routes only by defining titles.
+name: adonis-breadcrumbs
+npm: "@artian-techs/adonis-breadcrumbs"
+repo: Artian-Techs/adonis-breadcrumbs
+type: 3rd-party
+website: https://adonis-breadcrumbs.pages.dev/

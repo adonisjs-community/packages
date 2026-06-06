@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: A Dropbox driver for AdonisJS Ally
+icon: dropbox.png
+name: julienbenac-ally-dropbox
+npm: "@julienbenac/ally-dropbox"
+repo: julienbenac/ally-dropbox
+type: 3rd-party
+website: https://github.com/julienbenac/ally-dropbox

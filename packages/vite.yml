@@ -1,0 +1,11 @@
+category: Rendering
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Vite plugin for Adonis.js
+icon: vite.png
+name: vite
+npm: "@adonisjs/vite"
+repo: adonisjs/vite
+type: official
+website: https://github.com/adonisjs/vite/tree/main

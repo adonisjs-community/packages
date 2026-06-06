@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Maxmind's GeoLite2 integration for AdonisJS
+name: geolite2
+npm: "@stouder-io/adonis-geolite2"
+repo: StouderIO/adonis-geolite2
+type: 3rd-party
+website: https://github.com/StouderIO/adonis-geolite2

@@ -1,0 +1,11 @@
+category: Database
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Addon for soft deletes AdonisJS Lucid ORM
+name: lucid-soft-deletes
+npm: adonis-lucid-soft-deletes
+repo: lookinlab/adonis-lucid-soft-deletes#develop
+type: 3rd-party
+website: https://github.com/lookinlab/adonis-lucid-soft-deletes

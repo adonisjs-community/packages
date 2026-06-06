@@ -1,0 +1,11 @@
+category: Storage
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Drive Driver for Cloudflare R2
+icon: cloudflare.png
+name: drive-r2
+npm: adonis-drive-r2
+repo: ndianabasi/adonis-drive-r2
+type: 3rd-party
+website: https://github.com/ndianabasi/adonis-drive-r2

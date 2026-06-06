@@ -1,0 +1,10 @@
+category: Testing
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Japa reporter that generates an html file with all tests
+name: table-driven-html-reporter
+npm: table-driven-html-reporter
+repo: guntribam/table-driven-html-reporter
+type: 3rd-party
+website: https://github.com/guntribam/table-driven-html-reporter

@@ -1,0 +1,11 @@
+category: Communication
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: RPC / End-to-end typesafe client For AdonisJS, Ziggy-like helpers
+icon: tuyau.png
+name: tuyau
+npm: "@tuyau/client"
+repo: Julien-R44/tuyau#main
+type: 3rd-party
+website: https://tuyau.julr.dev

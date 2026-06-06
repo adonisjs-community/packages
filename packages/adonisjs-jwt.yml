@@ -1,0 +1,10 @@
+category: Authentication
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Authentication with JWT token for AdonisJS
+name: adonisjs-jwt
+npm: "@maximemrf/adonisjs-jwt"
+repo: MaximeMRF/adonisjs-jwt
+type: 3rd-party
+website: https://github.com/MaximeMRF/adonisjs-jwt/tree/main

@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Safely set your Adonis application in maintenance mode.
+icon: foadonis.png
+name: foadonis-maintenance
+npm: "@foadonis/maintenance"
+repo: FriendsOfAdonis/FriendsOfAdonis
+type: 3rd-party
+website: https://friendsofadonis.com/docs/maintenance

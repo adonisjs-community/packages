@@ -1,0 +1,12 @@
+category: Rendering
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Iconify integration for the Edge template engine
+icon: edge.jpeg
+name: edge-iconify
+npm: edge-iconify
+repo: https://github.com/edge-js/edge-iconify
+type: official
+website: https://github.com/edge-js/edge-iconify/tree/main

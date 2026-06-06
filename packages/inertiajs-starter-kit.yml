@@ -1,0 +1,9 @@
+category: Starter kits
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: AdonisJS Monorepo, Inertia, Shadcn, React ...
+name: inertiajs-starter-kit
+repo: filipebraida/adonisjs-starter-kit
+type: 3rd-party
+website: https://github.com/filipebraida/adonisjs-starter-kit

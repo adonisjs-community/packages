@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: A Twitch driver for AdonisJS Ally
+icon: twitch.png
+name: ally-twitch
+npm: adonis-ally-twitch
+repo: mrgmnn/ally-twitch-driver
+type: 3rd-party
+website: https://github.com/mrgmnn/ally-twitch-driver

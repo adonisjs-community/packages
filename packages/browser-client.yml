@@ -1,0 +1,12 @@
+category: Testing
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Browser client built on top of Playwright for writing end to end tests
+icon: japa.png
+name: browser-client
+npm: "@japa/browser-client"
+repo: japa/browser-client#develop
+type: official
+website: https://github.com/japa/browser-client/tree/develop

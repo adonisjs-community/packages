@@ -1,0 +1,10 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Job processing for AdonisJS
+name: adonisjs-jobs
+npm: adonisjs-jobs
+repo: KABBOUCHI/adonisjs-jobs
+type: 3rd-party
+website: https://github.com/KABBOUCHI/adonisjs-jobs

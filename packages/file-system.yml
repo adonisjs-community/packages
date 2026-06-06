@@ -1,0 +1,12 @@
+category: Testing
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: File system plugin for writing assertions for files and directories
+icon: japa.png
+name: file-system
+npm: "@japa/file-system"
+repo: japa/file-system#develop
+type: official
+website: https://github.com/japa/file-system/tree/develop

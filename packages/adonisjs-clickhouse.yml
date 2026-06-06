@@ -1,0 +1,12 @@
+category: Database
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: A wrapper for ClickHouse with support for migrations, seeders,
+  templates, and more.
+icon: adonisjs-clickhouse.png
+name: adonisjs-clickhouse
+npm: adonisjs-clickhouse
+repo: flozdra/adonisjs-clickhouse
+type: 3rd-party
+website: https://github.com/flozdra/adonisjs-clickhouse/

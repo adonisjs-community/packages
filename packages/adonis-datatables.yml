@@ -1,0 +1,11 @@
+category: Database
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Manage your datatable server side for AdonisJS
+icon: datatables.png
+name: adonis-datatables
+npm: "@adityadarma/adonis-datatables"
+repo: adityadarma/adonis-datatables
+type: 3rd-party
+website: https://github.com/adityadarma/adonis-datatables

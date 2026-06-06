@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: AdonisJS 6 Ally Vk.com (Vkontakte.ru) Driver
+icon: vk.png
+name: adonis6-ally-vk
+npm: adonis6_ally_vk
+repo: dmitry-makovsky/adonis6_ally_vk
+type: 3rd-party
+website: https://github.com/dmitry-makovsky/adonis6_ally_vk/tree/main

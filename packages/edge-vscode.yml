@@ -1,0 +1,10 @@
+category: DevTools
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Official VS Code extension for Edge.js
+icon: edge.jpeg
+name: edge-vscode
+type: official
+website: https://marketplace.visualstudio.com/items?itemName=AdonisJS.vscode-edge

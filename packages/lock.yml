@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Atomic locks (mutex) for AdonisJS applications
+icon: adonis.png
+name: lock
+npm: "@adonisjs/lock"
+repo: adonisjs/lock
+type: official
+website: https://github.com/adonisjs/lock/tree/main

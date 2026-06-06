@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: An Orange driver for AdonisJS Ally
+icon: orange.png
+name: julienbenac-ally-orange
+npm: "@julienbenac/ally-orange"
+repo: julienbenac/ally-orange
+type: 3rd-party
+website: https://github.com/julienbenac/ally-orange

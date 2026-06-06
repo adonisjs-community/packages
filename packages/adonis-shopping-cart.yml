@@ -1,0 +1,10 @@
+category: Extensions
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Basic Shopping Cart functionality for AdonisJS v5
+name: adonis-shopping-cart
+npm: adonis-shopping-cart
+repo: alexpechkarev/adonis-shopping-cart
+type: 3rd-party
+website: https://github.com/alexpechkarev/adonis-shopping-cart

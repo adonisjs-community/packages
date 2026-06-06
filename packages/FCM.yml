@@ -1,0 +1,11 @@
+category: Messaging
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Firebase Cloud Messaging for AdonisJS
+icon: firebase.png
+name: FCM
+npm: adonis-fcm
+repo: lookinlab/adonis-fcm#develop
+type: 3rd-party
+website: https://github.com/lookinlab/adonis-fcm

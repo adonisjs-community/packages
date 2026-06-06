@@ -1,0 +1,10 @@
+category: Database
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: A set of commands to help you manage your databases.
+name: adonis-lucid-commands
+npm: "@jrmc/adonis-lucid-commands"
+repo: batosai/adonis-lucid-commands#main
+type: 3rd-party
+website: https://github.com/batosai/adonis-lucid-commands

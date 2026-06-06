@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "5": ^5.9.0
+    "6": ^6.2.0
+description: A maintenance mode for the AdonisJS framework
+name: maintenance
+npm: adonisjs-maintenance
+repo: MichaelBelgium/adonisjs-maintenance#master
+type: 3rd-party
+website: https://github.com/MichaelBelgium/adonisjs-maintenance

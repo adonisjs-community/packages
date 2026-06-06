@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: Authentik driver for AdonisJS Ally
+icon: goauthentik.png
+name: ally-authentik
+npm: adonis-ally-authentik
+repo: alfianazizi/ally-driver-authentik
+type: 3rd-party
+website: https://github.com/alfianazizi/ally-driver-authentik

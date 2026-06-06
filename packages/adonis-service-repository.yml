@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Manage your service and repository file on AdonisJS
+icon: datatables.png
+name: adonis-service-repository
+npm: "@adityadarma/adonis-service-repository"
+repo: adityadarma/adonis-service-repository
+type: 3rd-party
+website: https://github.com/adityadarma/adonis-service-repository

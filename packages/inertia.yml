@@ -1,0 +1,11 @@
+category: Rendering
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Official Inertia.js adapter for AdonisJS
+icon: inertia.png
+name: inertia
+npm: "@adonisjs/inertia"
+repo: adonisjs/inertia
+type: official
+website: https://github.com/adonisjs/inertia/tree/main

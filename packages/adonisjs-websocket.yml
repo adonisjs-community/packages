@@ -1,0 +1,10 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Websocket provider for AdonisJS
+name: adonisjs-websocket
+npm: adonisjs-websocket
+repo: KABBOUCHI/adonisjs-websocket#master
+type: 3rd-party
+website: https://github.com/KABBOUCHI/adonisjs-websocket/tree/master

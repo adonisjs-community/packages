@@ -1,0 +1,12 @@
+category: Extensions
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: Session provider for AdonisJS
+icon: adonis.png
+name: session
+npm: "@adonisjs/session"
+repo: adonisjs/session#develop
+type: official
+website: https://github.com/adonisjs/session

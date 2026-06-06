@@ -1,0 +1,12 @@
+category: Database
+compatibility:
+  adonis:
+    "5": ^5.0.0
+    "6": ^6.0.0
+description: AdonisJS addon for Redis
+icon: redis.png
+name: redis
+npm: "@adonisjs/redis"
+repo: adonisjs/redis#develop
+type: official
+website: https://github.com/adonisjs/redis

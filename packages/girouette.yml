@@ -1,0 +1,11 @@
+category: Extensions
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: An AdonisJS package allowing decorators-based routing.
+icon: girouette.png
+name: girouette
+npm: "@adonisjs-community/girouette"
+repo: adonisjs-community/girouette
+type: 3rd-party
+website: https://github.com/adonisjs-community/girouette

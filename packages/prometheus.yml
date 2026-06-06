@@ -1,0 +1,11 @@
+category: Monitoring
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: 📊 Prometheus integration for AdonisJS
+icon: prometheus.png
+name: prometheus
+npm: "@julr/adonisjs-prometheus"
+repo: Julien-R44/adonis5-prometheus
+type: 3rd-party
+website: https://github.com/Julien-R44/adonisjs-prometheus

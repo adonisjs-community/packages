@@ -1,0 +1,11 @@
+category: Authentication
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: A Patreon driver for AdonisJS Ally
+icon: patreon.png
+name: tpointurier-ally-patreon
+npm: "@tpointurier/ally-patreon"
+repo: ThibaultPointurier/ally-patreon
+type: 3rd-party
+website: https://github.com/ThibaultPointurier/ally-patreon

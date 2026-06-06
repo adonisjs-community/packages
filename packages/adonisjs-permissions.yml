@@ -1,0 +1,10 @@
+category: Authorization
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Role permissions system for AdonisJs V6+
+name: adonisjs-permissions
+npm: "@holoyan/adonisjs-permissions"
+repo: holoyan/adonisjs-permissions#master
+type: 3rd-party
+website: https://github.com/holoyan/adonisjs-permissions

@@ -1,0 +1,11 @@
+category: Security
+compatibility:
+  adonis:
+    "5": ^5.0.0
+description: A Cloudflare Turnstile CAPTCHA package for AdonisJS framework.
+icon: turnstile.png
+name: adonis-turnstile
+npm: adonis-turnstile
+repo: tuanvu0995/adonis-turnstile
+type: 3rd-party
+website: https://github.com/tuanvu0995/adonis-turnstile

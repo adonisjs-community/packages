@@ -1,0 +1,11 @@
+category: Communication
+compatibility:
+  adonis:
+    "6": ^6.0.0
+description: Create GraphQL APIs powered by Apollo with Adonis
+icon: foadonis.png
+name: foadonis-graphql
+npm: "@foadonis/graphql"
+repo: FriendsOfAdonis/FriendsOfAdonis
+type: 3rd-party
+website: https://friendsofadonis.com/docs/graphql
