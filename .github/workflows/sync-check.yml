@@ -1,0 +1,47 @@
+name: Sync Check
+on:
+  pull_request:
+    paths:
+      - 'packages/**'
+      - 'icons/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Detect changed package ymls
+        id: changed
+        run: |
+          set -e
+          changed=$(git diff --name-only origin/${{ github.base_ref }}...HEAD -- 'packages/*.yml' | xargs -I{} basename {} .yml | tr '\n' ' ')
+          echo "Changed packages: $changed"
+          echo "names=$changed" >> "$GITHUB_OUTPUT"
+
+      - name: Sync each changed package
+        if: steps.changed.outputs.names != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for name in ${{ steps.changed.outputs.names }}; do
+            pnpm sync:ci "$name"
+          done
+
+      - name: Verify sync is idempotent
+        if: steps.changed.outputs.names != ''
+        run: |
+          if ! git diff --exit-code packages/; then
+            echo "::error::Yml files were modified by sync. Run 'pnpm sync <name>' locally and commit the result."
+            exit 1
+          fi
