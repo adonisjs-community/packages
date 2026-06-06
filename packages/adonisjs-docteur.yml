@@ -1,0 +1,14 @@
+category: DevTools
+compatibility:
+  adonis:
+    - "7": 7.x
+description: AdonisJS cold start profiler - analyze and optimize your application boot time
+github: https://github.com/densetsuuu/adonisjs-docteur
+maintainers:
+  - github: densetsuuu
+    name: densetsuuu
+name: adonisjs-docteur
+npm: "@densetsuuu/docteur"
+repo: densetsuuu/adonisjs-docteur
+type: 3rd-party
+website: https://github.com/densetsuuu/adonisjs-docteur
