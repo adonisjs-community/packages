@@ -82,3 +82,51 @@ export async function checkWebsiteRedirect(url: string): Promise<string | null> 
     return null;
   }
 }
+
+export interface NpmPackageInfo {
+  name: string;
+  latestVersion: string;
+  latestPublishedAt: string; // ISO date
+}
+
+export async function fetchNpmPackage(name: string): Promise<NpmPackageInfo> {
+  const url = `https://registry.npmjs.org/${encodeURIComponent(name)}`;
+  const data = await http.get(url).json<{
+    "dist-tags": { latest: string };
+    time: Record<string, string>;
+  }>();
+  const latestVersion = data["dist-tags"].latest;
+  const latestPublishedAt = data.time[latestVersion];
+  if (!latestPublishedAt) {
+    throw new Error(`npm registry response for ${name} missing time entry for ${latestVersion}`);
+  }
+  return { name, latestVersion, latestPublishedAt };
+}
+
+/**
+ * Returns ISO date of the latest commit on the default branch, or null if unreachable.
+ */
+export async function getLastCommitDate(repo: string): Promise<string | null> {
+  const [ownerRepo] = repo.split("#");
+  const [owner, name] = ownerRepo.split("/");
+  if (!owner || !name) return null;
+  try {
+    const res = await octokit.repos.listCommits({ owner, repo: name, per_page: 1 });
+    return res.data[0]?.commit.committer?.date ?? null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Returns the current AdonisJS framework major version, fetched from npm's `@adonisjs/core`
+ * latest dist-tag.
+ */
+export async function getCurrentAdonisMajor(): Promise<number> {
+  const info = await fetchNpmPackage("@adonisjs/core");
+  const major = parseInt(info.latestVersion.split(".")[0] ?? "", 10);
+  if (Number.isNaN(major)) {
+    throw new Error(`Could not parse major from @adonisjs/core: ${info.latestVersion}`);
+  }
+  return major;
+}
