@@ -8,11 +8,12 @@ export interface Maintainer {
 }
 
 export interface PackageCompatibility {
-  // AdonisJS major version (string key) → semver range of supported package versions
   adonis: Record<string, string>;
 }
 
 export type PackageType = "official" | "3rd-party";
+
+export type PackageStatus = "healthy" | "stale" | "archived";
 
 export interface PackageInfo {
   name: string;
@@ -27,7 +28,12 @@ export interface PackageInfo {
   maintainers: Maintainer[];
   compatibility: PackageCompatibility;
   aliases?: string[];
-  archived?: boolean;
+
+  // Bot-owned fields (optional until first cron run fills them):
+  lastCommitAt?: string;
+  lastReleaseAt?: string;
+  latestNpmVersion?: string;
+  status?: PackageStatus;
 }
 
 export type RegressionType = "compatibility" | "website" | "repo-redirect";

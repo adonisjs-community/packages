@@ -12,7 +12,6 @@ import {
   checkWebsiteRedirect,
   fetchGithubPkg,
   iconsDir,
-  isRepoArchived,
   packagesDir,
   sleep,
 } from "./utils.ts";
@@ -140,10 +139,7 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
     }
   }
 
-  // 11. archived
-  pkg.archived = await isRepoArchived(pkg.repo);
-
-  // 12. regressions — dropped compatibility majors
+  // 11. regressions — dropped compatibility majors
   const currentCompatMajors = Object.keys(pkg.compatibility.adonis);
   const droppedMajors = originalCompatMajors.filter((m) => !currentCompatMajors.includes(m));
   for (const major of droppedMajors) {
@@ -154,7 +150,7 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
     });
   }
 
-  // 13. write yml back (sorted keys → stable diff)
+  // 12. write yml back (sorted keys → stable diff)
   await writePackage(pkg);
 
   return { package: pkg, regressions };
@@ -177,7 +173,7 @@ export async function syncAll(onProgress?: SyncProgressCallback): Promise<SyncAl
           const result = await sync(name);
           synced.push(name);
           regressions.push(...result.regressions);
-          if (result.package.archived) archivedPackages.push(name);
+          if (result.package.status === "archived") archivedPackages.push(name);
         } catch (err) {
           errors.push({ packageName: name, error: err as Error });
         }
