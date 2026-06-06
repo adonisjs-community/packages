@@ -24,9 +24,15 @@ import type {
   SyncResult,
 } from "./types.ts";
 
-async function loadPackage(name: string): Promise<PackageInfo> {
+async function loadPackage(name: string, isNew = false): Promise<PackageInfo> {
   const file = resolve(packagesDir, `${name}.yml`);
   if (!existsSync(file)) {
+    if (isNew) {
+      // Bootstrap seed for `pnpm sync <new-name> <new/repo>`.
+      // Sync fills in the auto-derived fields; the contributor edits the yml
+      // afterwards to add `category`, `icon`, and `compatibility`.
+      return { name } as PackageInfo;
+    }
     throw new Error(`Package ${name} not found at ${file}`);
   }
   const raw = await readFile(file, "utf-8");
@@ -39,7 +45,7 @@ async function writePackage(pkg: PackageInfo): Promise<void> {
 }
 
 export async function sync(name: string, repo?: string, isNew = false): Promise<SyncResult> {
-  const pkg = await loadPackage(name);
+  const pkg = await loadPackage(name, isNew);
   const regressions: SyncRegression[] = [];
   const originalCompatMajors = Object.keys(pkg.compatibility?.adonis ?? {});
 
@@ -77,11 +83,14 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
   // 5. type
   pkg.type = pkg.repo.startsWith("adonisjs/") ? "official" : "3rd-party";
 
-  // 6. category (hard error)
+  // 6. category (hard error unless bootstrapping)
   if (!pkg.category) {
-    throw new Error(`No category set for ${name}`);
-  }
-  if (!categories.includes(pkg.category)) {
+    if (isNew) {
+      console.log(`[TODO] Add a category to packages/${name}.yml`);
+    } else {
+      throw new Error(`No category set for ${name}`);
+    }
+  } else if (!categories.includes(pkg.category)) {
     throw new Error(
       `Invalid category "${pkg.category}" for ${name}. Allowed: ${categories.join(", ")}`,
     );
@@ -116,16 +125,21 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
 
   await sleep(FETCH_DELAY);
 
-  // 9. compatibility (hard error)
+  // 9. compatibility (hard error unless bootstrapping)
   if (!pkg.compatibility?.adonis || Object.keys(pkg.compatibility.adonis).length === 0) {
-    throw new Error(`Missing compatibility.adonis for ${name}`);
-  }
-  for (const [major, range] of Object.entries(pkg.compatibility.adonis)) {
-    if (!/^\d+$/.test(major)) {
-      throw new Error(`Invalid major version "${major}" for ${name}`);
+    if (isNew) {
+      console.log(`[TODO] Add compatibility.adonis to packages/${name}.yml`);
+    } else {
+      throw new Error(`Missing compatibility.adonis for ${name}`);
     }
-    if (!semver.validRange(range)) {
-      throw new Error(`Invalid semver range "${range}" for ${name} (major ${major})`);
+  } else {
+    for (const [major, range] of Object.entries(pkg.compatibility.adonis)) {
+      if (!/^\d+$/.test(major)) {
+        throw new Error(`Invalid major version "${major}" for ${name}`);
+      }
+      if (!semver.validRange(range)) {
+        throw new Error(`Invalid semver range "${range}" for ${name} (major ${major})`);
+      }
     }
   }
 
@@ -140,7 +154,7 @@ export async function sync(name: string, repo?: string, isNew = false): Promise<
   }
 
   // 11. regressions — dropped compatibility majors
-  const currentCompatMajors = Object.keys(pkg.compatibility.adonis);
+  const currentCompatMajors = Object.keys(pkg.compatibility?.adonis ?? {});
   const droppedMajors = originalCompatMajors.filter((m) => !currentCompatMajors.includes(m));
   for (const major of droppedMajors) {
     regressions.push({
