@@ -5,9 +5,9 @@ compatibility:
     "7": 7.x
 description: Transform any field in your Lucid model into an attachment data
   type, automatically generating various sizes and formats.
-lastCommitAt: 2026-05-19T21:43:58Z
-lastReleaseAt: 2026-05-19T21:52:02.333Z
-latestNpmVersion: 5.1.5
+lastCommitAt: 2026-06-08T20:52:50Z
+lastReleaseAt: 2026-06-08T20:57:22.582Z
+latestNpmVersion: 5.2.0
 name: adonis-attachment
 npm: "@jrmc/adonis-attachment"
 repo: batosai/adonis-attachment#main

@@ -4,9 +4,9 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Job processing for AdonisJS
-lastCommitAt: 2026-06-03T10:30:16Z
-lastReleaseAt: 2026-06-03T10:30:50.418Z
-latestNpmVersion: 0.3.0
+lastCommitAt: 2026-06-10T15:47:49Z
+lastReleaseAt: 2026-06-10T15:48:28.069Z
+latestNpmVersion: 0.4.0
 name: adonisjs-jobs
 npm: adonisjs-jobs
 repo: KABBOUCHI/adonisjs-jobs
