@@ -4,9 +4,9 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: MCP (Model Context Protocol) for AdonisJS.
-lastCommitAt: 2026-06-02T18:30:48Z
-lastReleaseAt: 2026-05-31T13:23:42.612Z
-latestNpmVersion: 1.0.3
+lastCommitAt: 2026-07-05T08:57:34Z
+lastReleaseAt: 2026-07-05T08:58:50.341Z
+latestNpmVersion: 1.0.4
 name: adonis-mcp
 npm: "@jrmc/adonis-mcp"
 repo: batosai/adonis-mcp#main
