@@ -4,9 +4,9 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Use your AdonisJs routes in your Inertia.js application
-lastCommitAt: 2025-12-17T00:40:49Z
-lastReleaseAt: 2025-12-17T00:30:15.370Z
-latestNpmVersion: 2.1.14
+lastCommitAt: 2026-07-11T02:08:15Z
+lastReleaseAt: 2026-07-11T02:08:11.772Z
+latestNpmVersion: 2.2.0
 name: izzyjs-route
 npm: "@izzyjs/route"
 repo: izzyjs/route

@@ -5,7 +5,7 @@ compatibility:
     "7": 7.x
 description: Plug and play full-text search for your Adonis application.
 icon: foadonis.png
-lastCommitAt: 2026-05-28T17:59:13Z
+lastCommitAt: 2026-07-06T10:26:23Z
 lastReleaseAt: 2026-03-09T11:37:16.796Z
 latestNpmVersion: 0.3.2
 name: foadonis-magnify

@@ -5,7 +5,7 @@ compatibility:
     "7": 7.x
 description: Safely set your Adonis application in maintenance mode.
 icon: foadonis.png
-lastCommitAt: 2026-05-28T17:59:13Z
+lastCommitAt: 2026-07-06T10:26:23Z
 lastReleaseAt: 2026-03-09T11:37:16.791Z
 latestNpmVersion: 0.1.2
 name: foadonis-maintenance

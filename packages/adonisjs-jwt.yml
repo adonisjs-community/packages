@@ -4,7 +4,7 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: Authentication with JWT token for AdonisJS
-lastCommitAt: 2026-07-06T08:26:02Z
+lastCommitAt: 2026-07-06T12:02:50Z
 lastReleaseAt: 2026-03-26T18:22:41.269Z
 latestNpmVersion: 0.9.0
 name: adonisjs-jwt
