@@ -5,7 +5,7 @@ compatibility:
     "7": 7.x
 description: Generate OpenAPI V3 compliant specifications using decorators
 icon: foadonis.png
-lastCommitAt: 2026-07-06T10:26:23Z
+lastCommitAt: 2026-07-19T17:17:26Z
 lastReleaseAt: 2026-07-06T10:27:24.652Z
 latestNpmVersion: 1.1.0
 name: foadonis-openapi

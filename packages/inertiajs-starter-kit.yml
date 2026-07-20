@@ -4,7 +4,7 @@ compatibility:
     "6": 6.x
     "7": 7.x
 description: AdonisJS Monorepo, Inertia, Shadcn, React ...
-lastCommitAt: 2026-07-12T21:54:23Z
+lastCommitAt: 2026-07-18T17:05:51Z
 lastReleaseAt: 2013-06-27T17:54:27.534Z
 latestNpmVersion: 0.1.0
 name: inertiajs-starter-kit
