@@ -7,7 +7,7 @@ compatibility:
 description: Mail provider for adonis framework and has support for all common
   mailing services to send emails
 icon: adonis.png
-lastCommitAt: 2026-07-05T08:13:13Z
+lastCommitAt: 2026-07-29T07:30:57Z
 lastReleaseAt: 2026-07-05T08:13:13.116Z
 latestNpmVersion: 10.4.0
 name: mailer
