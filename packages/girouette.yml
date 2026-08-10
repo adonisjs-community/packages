@@ -5,9 +5,9 @@ compatibility:
     "7": 7.x
 description: An AdonisJS package allowing decorators-based routing.
 icon: girouette.png
-lastCommitAt: 2026-02-25T16:48:06Z
-lastReleaseAt: 2026-02-25T16:35:18.622Z
-latestNpmVersion: 1.0.0
+lastCommitAt: 2026-08-04T11:54:07Z
+lastReleaseAt: 2026-08-04T11:51:24.652Z
+latestNpmVersion: 1.0.1
 name: girouette
 npm: "@adonisjs-community/girouette"
 repo: adonisjs-community/girouette
