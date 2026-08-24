@@ -5,9 +5,9 @@ compatibility:
     "7": 7.x
 description: Manage your service and repository file on AdonisJS
 icon: datatables.png
-lastCommitAt: 2026-08-16T00:55:46Z
-lastReleaseAt: 2026-08-16T00:55:45.529Z
-latestNpmVersion: 4.0.2
+lastCommitAt: 2026-08-20T06:43:33Z
+lastReleaseAt: 2026-08-20T06:43:32.794Z
+latestNpmVersion: 4.1.1
 name: adonis-service-repository
 npm: "@adityadarma/adonis-service-repository"
 repo: adityadarma/adonis-service-repository

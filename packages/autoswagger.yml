@@ -11,6 +11,6 @@ latestNpmVersion: 3.73.0
 name: autoswagger
 npm: adonis-autoswagger
 repo: ad-on-is/adonis-autoswagger#master
-status: healthy
+status: archived
 type: 3rd-party
 website: https://github.com/ad-on-is/adonis-autoswagger
