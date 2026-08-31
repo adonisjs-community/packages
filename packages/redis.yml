@@ -6,9 +6,9 @@ compatibility:
     "7": 7.x
 description: AdonisJS addon for Redis
 icon: redis.png
-lastCommitAt: 2026-08-21T07:09:05Z
-lastReleaseAt: 2026-02-25T07:11:13.582Z
-latestNpmVersion: 10.0.0
+lastCommitAt: 2026-08-26T09:12:13Z
+lastReleaseAt: 2026-08-26T09:12:12.704Z
+latestNpmVersion: 10.0.1
 name: redis
 npm: "@adonisjs/redis"
 repo: adonisjs/redis#develop
