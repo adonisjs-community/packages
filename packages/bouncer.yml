@@ -6,7 +6,7 @@ compatibility:
     "7": 7.x
 description: Authorization layer for AdonisJS
 icon: adonis.png
-lastCommitAt: 2026-08-21T06:28:27Z
+lastCommitAt: 2026-09-13T07:21:41Z
 lastReleaseAt: 2026-08-21T06:28:26.758Z
 latestNpmVersion: 4.0.1
 name: bouncer
