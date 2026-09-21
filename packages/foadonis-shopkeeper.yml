@@ -6,7 +6,7 @@ compatibility:
 description: Adonis Shopkeeper provides an expressive, fluent interface to
   Stripe's subscription billing services.
 icon: foadonis.png
-lastCommitAt: 2026-07-29T11:40:21Z
+lastCommitAt: 2026-09-14T14:10:35Z
 lastReleaseAt: 2026-05-28T10:17:39.639Z
 latestNpmVersion: 1.0.1
 name: foadonis-shopkeeper
