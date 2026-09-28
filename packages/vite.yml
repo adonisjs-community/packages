@@ -5,9 +5,9 @@ compatibility:
     "7": 7.x
 description: Vite plugin for Adonis.js
 icon: vite.png
-lastCommitAt: 2026-09-07T10:16:25Z
-lastReleaseAt: 2026-09-01T20:04:07.488Z
-latestNpmVersion: 6.0.2
+lastCommitAt: 2026-09-25T08:49:18Z
+lastReleaseAt: 2026-09-25T08:50:13.420Z
+latestNpmVersion: 6.0.3
 name: vite
 npm: "@adonisjs/vite"
 repo: adonisjs/vite
