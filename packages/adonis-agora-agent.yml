@@ -1,0 +1,17 @@
+category: Extensions
+compatibility:
+  adonis:
+    "7": 7.x
+description: Governed, durable-backed AI agent (chat + tool-calling +
+  governance) for AdonisJS — part of the Agora ecosystem.
+directory: packages/adonis
+github: https://github.com/DavideCarvalho/adonis-agora-agent
+icon: agora.svg
+maintainers:
+  - github: DavideCarvalho
+    name: DavideCarvalho
+name: adonis-agora-agent
+npm: "@adonis-agora/agent"
+repo: DavideCarvalho/adonis-agora-agent#master
+type: 3rd-party
+website: https://davidecarvalho.github.io/agora/docs/agent

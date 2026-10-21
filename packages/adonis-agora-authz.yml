@@ -1,0 +1,18 @@
+category: Authorization
+compatibility:
+  adonis:
+    "7": 7.x
+description: Bouncer-integrated, DB-backed RBAC for AdonisJS — roles,
+  permissions, wildcard matching and multi-tenancy on top of @adonisjs/bouncer,
+  with pluggable stores (Lucid / in-memory). Part of the Agora ecosystem.
+directory: packages/core
+github: https://github.com/DavideCarvalho/adonis-agora-authz
+icon: agora.svg
+maintainers:
+  - github: DavideCarvalho
+    name: DavideCarvalho
+name: adonis-agora-authz
+npm: "@adonis-agora/authz"
+repo: DavideCarvalho/adonis-agora-authz#master
+type: 3rd-party
+website: https://davidecarvalho.github.io/agora/docs/authz

@@ -1,0 +1,18 @@
+category: DevTools
+compatibility:
+  adonis:
+    "7": 7.x
+description: Docker-powered local dev environment for AdonisJS — service
+  auto-detection, per-worktree isolation with deterministic ports, and
+  agent-friendly JSON output. Part of the Agora ecosystem.
+directory: packages/core
+github: https://github.com/DavideCarvalho/adonis-agora-sail
+icon: agora.svg
+maintainers:
+  - github: DavideCarvalho
+    name: DavideCarvalho
+name: adonis-agora-sail
+npm: "@adonis-agora/sail"
+repo: DavideCarvalho/adonis-agora-sail#master
+type: 3rd-party
+website: https://davidecarvalho.github.io/agora/docs/sail

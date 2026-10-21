@@ -1,0 +1,19 @@
+category: Monitoring
+compatibility:
+  adonis:
+    "7": 7.x
+description: Laravel Telescope-style headless observability for AdonisJS —
+  records HTTP requests and every Agora diagnostics event as queryable entries,
+  plus opt-in subpaths for per-technology watchers, a web dashboard, AI
+  exception diagnosis, and alerting.
+directory: packages/core
+github: https://github.com/DavideCarvalho/adonis-agora-telescope
+icon: agora.svg
+maintainers:
+  - github: DavideCarvalho
+    name: DavideCarvalho
+name: adonis-agora-telescope
+npm: "@adonis-agora/telescope"
+repo: DavideCarvalho/adonis-agora-telescope#master
+type: 3rd-party
+website: https://davidecarvalho.github.io/agora/docs/telescope

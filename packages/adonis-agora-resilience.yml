@@ -1,0 +1,18 @@
+category: Extensions
+compatibility:
+  adonis:
+    "7": 7.x
+description: Resilience policies for AdonisJS — timeout, retry, circuit breaker,
+  and ordered failover, with pluggable circuit stores. Part of the Agora
+  ecosystem.
+directory: packages/core
+github: https://github.com/DavideCarvalho/adonis-agora-resilience
+icon: agora.svg
+maintainers:
+  - github: DavideCarvalho
+    name: DavideCarvalho
+name: adonis-agora-resilience
+npm: "@adonis-agora/resilience"
+repo: DavideCarvalho/adonis-agora-resilience#master
+type: 3rd-party
+website: https://davidecarvalho.github.io/agora/docs/resilience
