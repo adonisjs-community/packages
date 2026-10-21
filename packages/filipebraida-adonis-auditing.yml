@@ -1,0 +1,15 @@
+category: Database
+compatibility:
+  adonis:
+    "7": 7.x
+description: Audit your Lucid models with ease (AdonisJS v7).
+github: https://github.com/filipebraida/adonis-auditing
+icon: audit.png
+maintainers:
+  - github: filipebraida
+    name: filipebraida
+name: filipebraida-adonis-auditing
+npm: "@filipebraida/adonis-auditing"
+repo: filipebraida/adonis-auditing
+type: 3rd-party
+website: https://github.com/filipebraida/adonis-auditing
