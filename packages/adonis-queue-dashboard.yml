@@ -1,0 +1,20 @@
+category: Monitoring
+compatibility:
+  adonis:
+    "7": 7.x
+description: A standalone, read-only dashboard for @adonisjs/queue to inspect
+  jobs and schedules across Redis and database drivers.
+github: https://github.com/batosai/adonis-queue-dashboard
+icon: jrmc.svg
+lastCommitAt: 2026-10-19T21:01:46Z
+lastReleaseAt: 2026-10-19T21:11:30.347Z
+latestNpmVersion: 0.3.0
+maintainers:
+  - github: batosai
+    name: batosai
+name: adonis-queue-dashboard
+npm: "@jrmc/adonis-queue-dashboard"
+repo: batosai/adonis-queue-dashboard#main
+status: healthy
+type: 3rd-party
+website: https://github.com/batosai/adonis-queue-dashboard

@@ -3,10 +3,15 @@ compatibility:
   adonis:
     "6": 6.x
     "7": 7.x
-description: A set of commands to help you manage your databases.
+description: Additional commands for AdonisJS Lucid ORM
+github: https://github.com/batosai/adonis-lucid-commands
+icon: jrmc.svg
 lastCommitAt: 2026-04-29T16:29:01Z
 lastReleaseAt: 2026-01-31T16:24:38.181Z
 latestNpmVersion: 1.1.1
+maintainers:
+  - github: batosai
+    name: batosai
 name: adonis-lucid-commands
 npm: "@jrmc/adonis-lucid-commands"
 repo: batosai/adonis-lucid-commands#main
