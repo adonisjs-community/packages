@@ -7,11 +7,15 @@ description: Shared AsyncLocalStorage context for AdonisJS — carries
 directory: packages/core
 github: https://github.com/DavideCarvalho/adonis-agora-context
 icon: agora.svg
+lastCommitAt: 2026-10-26T05:53:33Z
+lastReleaseAt: 2026-10-17T03:48:20.349Z
+latestNpmVersion: 0.7.0
 maintainers:
   - github: DavideCarvalho
     name: DavideCarvalho
 name: adonis-agora-context
 npm: "@adonis-agora/context"
 repo: DavideCarvalho/adonis-agora-context#master
+status: healthy
 type: 3rd-party
 website: https://davidecarvalho.github.io/agora/docs/context

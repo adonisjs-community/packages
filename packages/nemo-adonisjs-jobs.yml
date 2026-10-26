@@ -6,6 +6,7 @@ compatibility:
 description: BullMQ integration for AdonisJS, with FlowJobs, Telemetry, UI
   Dashboard, and more.
 icon: redis.png
+lastCommitAt: 2026-10-08T04:20:56Z
 lastReleaseAt: 2026-10-08T04:23:11.774Z
 latestNpmVersion: 2.2.1
 name: nemo-adonisjs-jobs

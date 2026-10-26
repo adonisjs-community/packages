@@ -6,7 +6,7 @@ compatibility:
     "7": 7.x
 description: Session provider for AdonisJS
 icon: adonis.png
-lastCommitAt: 2026-10-18T11:31:11Z
+lastCommitAt: 2026-10-23T03:46:57Z
 lastReleaseAt: 2026-10-18T11:33:18.197Z
 latestNpmVersion: 8.3.0
 name: session

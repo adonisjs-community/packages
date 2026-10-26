@@ -7,11 +7,15 @@ description: "Lint for AdonisJS apps: architecture rules as ast-grep YAML and a
   message says how to fix it."
 github: https://github.com/filipebraida/eslint-config-adonis
 icon: eslint.png
+lastCommitAt: 2026-10-18T17:05:10Z
+lastReleaseAt: 2026-10-18T17:07:44.283Z
+latestNpmVersion: 0.3.0
 maintainers:
   - github: filipebraida
     name: filipebraida
 name: eslint-config-adonis
 npm: "@filipebraida/eslint-config-adonis"
 repo: filipebraida/eslint-config-adonis
+status: healthy
 type: 3rd-party
 website: https://github.com/filipebraida/eslint-config-adonis

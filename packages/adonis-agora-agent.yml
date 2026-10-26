@@ -7,11 +7,15 @@ description: Governed, durable-backed AI agent (chat + tool-calling +
 directory: packages/adonis
 github: https://github.com/DavideCarvalho/adonis-agora-agent
 icon: agora.svg
+lastCommitAt: 2026-10-26T08:56:32Z
+lastReleaseAt: 2026-10-23T22:45:07.124Z
+latestNpmVersion: 0.89.2
 maintainers:
   - github: DavideCarvalho
     name: DavideCarvalho
 name: adonis-agora-agent
 npm: "@adonis-agora/agent"
 repo: DavideCarvalho/adonis-agora-agent#master
+status: healthy
 type: 3rd-party
 website: https://davidecarvalho.github.io/agora/docs/agent

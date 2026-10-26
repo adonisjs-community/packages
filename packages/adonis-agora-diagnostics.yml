@@ -8,11 +8,15 @@ description: A standard convention for @adonis-agora/* AdonisJS libs to emit
 directory: packages/core
 github: https://github.com/DavideCarvalho/adonis-agora-diagnostics
 icon: agora.svg
+lastCommitAt: 2026-10-26T04:58:35Z
+lastReleaseAt: 2026-10-17T03:48:05.899Z
+latestNpmVersion: 0.3.0
 maintainers:
   - github: DavideCarvalho
     name: DavideCarvalho
 name: adonis-agora-diagnostics
 npm: "@adonis-agora/diagnostics"
 repo: DavideCarvalho/adonis-agora-diagnostics#master
+status: healthy
 type: 3rd-party
 website: https://davidecarvalho.github.io/agora/docs/diagnostics

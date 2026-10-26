@@ -4,11 +4,15 @@ compatibility:
     "7": 7.x
 description: Automated function point counting and code metrics for AdonisJS applications.
 github: https://github.com/filipebraida/adonis-function-points
+lastCommitAt: 2026-09-28T14:26:04Z
+lastReleaseAt: 2026-09-28T14:44:08.581Z
+latestNpmVersion: 0.15.1
 maintainers:
   - github: filipebraida
     name: filipebraida
 name: adonis-function-points
 npm: "@filipebraida/adonis-function-points"
 repo: filipebraida/adonis-function-points
+status: healthy
 type: 3rd-party
 website: https://github.com/filipebraida/adonis-function-points

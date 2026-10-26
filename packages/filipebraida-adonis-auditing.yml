@@ -5,11 +5,15 @@ compatibility:
 description: Audit your Lucid models with ease (AdonisJS v7).
 github: https://github.com/filipebraida/adonis-auditing
 icon: audit.png
+lastCommitAt: 2026-05-19T23:46:36Z
+lastReleaseAt: 2026-05-19T23:57:15.175Z
+latestNpmVersion: 2.0.0
 maintainers:
   - github: filipebraida
     name: filipebraida
 name: filipebraida-adonis-auditing
 npm: "@filipebraida/adonis-auditing"
 repo: filipebraida/adonis-auditing
+status: healthy
 type: 3rd-party
 website: https://github.com/filipebraida/adonis-auditing

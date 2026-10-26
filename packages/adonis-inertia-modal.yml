@@ -5,11 +5,15 @@ compatibility:
 description: Backend-driven modals for Inertia.js on AdonisJS
 github: https://github.com/filipebraida/adonis-inertia-modal
 icon: inertia.png
+lastCommitAt: 2026-08-22T02:07:33Z
+lastReleaseAt: 2026-08-22T01:59:35.717Z
+latestNpmVersion: 1.0.0
 maintainers:
   - github: filipebraida
     name: filipebraida
 name: adonis-inertia-modal
 npm: adonis-inertia-modal
 repo: filipebraida/adonis-inertia-modal
+status: healthy
 type: 3rd-party
 website: https://github.com/filipebraida/adonis-inertia-modal

@@ -5,7 +5,11 @@ compatibility:
     "6": 6.x
 description: Official VS Code extension for Edge.js
 icon: edge.jpeg
+lastCommitAt: 2025-10-22T07:08:33Z
+lastReleaseAt: 2013-06-27T17:54:27.534Z
+latestNpmVersion: 0.1.0
 name: edge-vscode
 repo: edge-js/edge-vscode
+status: healthy
 type: official
 website: https://marketplace.visualstudio.com/items?itemName=AdonisJS.vscode-edge

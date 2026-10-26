@@ -4,7 +4,11 @@ compatibility:
     "6": 6.x
 description: Zed extension for Edge.js
 icon: zed.png
+lastCommitAt: 2025-11-28T02:54:29Z
+lastReleaseAt: 2013-06-27T17:54:27.534Z
+latestNpmVersion: 0.1.0
 name: edge-zed
 repo: Hexacker/zed-edge
+status: healthy
 type: 3rd-party
 website: https://github.com/Hexacker/zed-edge
