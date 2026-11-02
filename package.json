@@ -1,6 +1,6 @@
 {
   "name": "@adonisjs/packages",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Registry of AdonisJS packages",
   "license": "MIT",
   "repository": {
