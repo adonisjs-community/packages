@@ -7,9 +7,9 @@ description: E2E typesafe client for AdonisJS
 directory: packages/core
 github: https://github.com/Julien-R44/tuyau
 icon: tuyau.png
-lastCommitAt: 2026-10-17T13:19:46Z
-lastReleaseAt: 2026-10-17T11:08:05.518Z
-latestNpmVersion: 1.2.3
+lastCommitAt: 2026-10-27T16:43:37Z
+lastReleaseAt: 2026-10-27T16:46:13.598Z
+latestNpmVersion: 1.3.0
 maintainers:
   - github: Julien-R44
     name: Julien-R44

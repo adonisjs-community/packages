@@ -9,9 +9,9 @@ description: "Billing library for AdonisJS — 18 payment gateways behind one
 directory: packages/adonis
 github: https://github.com/DavideCarvalho/adonis-agora-payments
 icon: agora.svg
-lastCommitAt: 2026-10-26T06:02:39Z
-lastReleaseAt: 2026-10-23T22:12:08.131Z
-latestNpmVersion: 0.20.1
+lastCommitAt: 2026-11-02T13:50:23Z
+lastReleaseAt: 2026-11-02T13:53:09.006Z
+latestNpmVersion: 0.25.1
 maintainers:
   - github: DavideCarvalho
     name: DavideCarvalho
