@@ -1,0 +1,15 @@
+category: Authentication
+compatibility:
+  adonis:
+    "7": 7.x
+description: Microsoft Entra ID driver for AdonisJS Ally
+github: https://github.com/noah-bar/ally-entra
+icon: microsoft.png
+maintainers:
+  - github: noah-bar
+    name: noah-bar
+name: hxtc-ally-entra
+npm: "@hxtc/ally-entra"
+repo: noah-bar/ally-entra
+type: 3rd-party
+website: https://github.com/noah-bar/ally-entra
