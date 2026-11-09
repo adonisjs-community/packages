@@ -9,7 +9,7 @@ description: Laravel Telescope-style headless observability for AdonisJS —
 directory: packages/core
 github: https://github.com/DavideCarvalho/adonis-agora-telescope
 icon: agora.svg
-lastCommitAt: 2026-11-02T12:04:19Z
+lastCommitAt: 2026-11-09T05:57:48Z
 lastReleaseAt: 2026-11-02T12:07:12.626Z
 latestNpmVersion: 0.27.1
 maintainers:

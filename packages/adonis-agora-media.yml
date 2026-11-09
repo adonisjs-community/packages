@@ -10,9 +10,9 @@ description: Media-library for AdonisJS — owner collections (MIME whitelist,
 directory: packages/adonis
 github: https://github.com/DavideCarvalho/adonis-agora-media
 icon: agora.svg
-lastCommitAt: 2026-11-02T11:59:26Z
-lastReleaseAt: 2026-11-02T12:01:43.734Z
-latestNpmVersion: 0.28.2
+lastCommitAt: 2026-11-09T06:42:24Z
+lastReleaseAt: 2026-11-08T17:46:01.600Z
+latestNpmVersion: 0.30.0
 maintainers:
   - github: DavideCarvalho
     name: DavideCarvalho

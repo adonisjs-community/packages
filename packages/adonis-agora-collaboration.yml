@@ -8,9 +8,9 @@ description: Collaborative editing (CRDT) for AdonisJS 7 — Yjs (Hocuspocus) an
 directory: packages/adonis
 github: https://github.com/DavideCarvalho/adonis-agora-collaboration
 icon: agora.svg
-lastCommitAt: 2026-11-02T10:41:29Z
-lastReleaseAt: 2026-11-01T01:31:09.213Z
-latestNpmVersion: 0.20.1
+lastCommitAt: 2026-11-09T06:08:21Z
+lastReleaseAt: 2026-11-04T01:46:28.293Z
+latestNpmVersion: 0.20.2
 maintainers:
   - github: DavideCarvalho
     name: DavideCarvalho
