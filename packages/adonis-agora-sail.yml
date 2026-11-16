@@ -8,7 +8,7 @@ description: Docker-powered local dev environment for AdonisJS — service
 directory: packages/core
 github: https://github.com/DavideCarvalho/adonis-agora-sail
 icon: agora.svg
-lastCommitAt: 2026-10-27T22:33:16Z
+lastCommitAt: 2026-11-12T13:27:33Z
 lastReleaseAt: 2026-10-27T22:35:33.996Z
 latestNpmVersion: 0.6.1
 maintainers:

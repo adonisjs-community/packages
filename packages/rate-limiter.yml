@@ -5,7 +5,7 @@ compatibility:
     "7": 7.x
 description: Rate limiting package for AdonisJS framework
 icon: adonis.png
-lastCommitAt: 2026-10-19T04:35:20Z
+lastCommitAt: 2026-11-16T08:41:54Z
 lastReleaseAt: 2026-03-13T01:42:49.313Z
 latestNpmVersion: 3.0.1
 name: rate-limiter

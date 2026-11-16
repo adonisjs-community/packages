@@ -8,7 +8,7 @@ description: Resilience policies for AdonisJS — timeout, retry, circuit breake
 directory: packages/core
 github: https://github.com/DavideCarvalho/adonis-agora-resilience
 icon: agora.svg
-lastCommitAt: 2026-11-09T06:06:04Z
+lastCommitAt: 2026-11-16T06:00:11Z
 lastReleaseAt: 2026-10-29T18:45:10.905Z
 latestNpmVersion: 0.4.3
 maintainers:

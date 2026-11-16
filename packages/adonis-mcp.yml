@@ -7,8 +7,8 @@ description: AdonisJS MCP - MCP server for your AdonisJS applications.
 github: https://github.com/batosai/adonis-mcp
 icon: jrmc.svg
 lastCommitAt: 2026-08-30T13:34:42Z
-lastReleaseAt: 2026-08-30T13:43:48.767Z
-latestNpmVersion: 2.0.0
+lastReleaseAt: 2026-11-11T20:02:30.376Z
+latestNpmVersion: 2.0.1
 maintainers:
   - github: batosai
     name: batosai

@@ -8,9 +8,9 @@ description: Server-side query filtering/sorting/pagination for AdonisJS —
 directory: packages/core
 github: https://github.com/DavideCarvalho/adonis-agora-filter
 icon: agora.svg
-lastCommitAt: 2026-10-30T21:34:43Z
-lastReleaseAt: 2026-10-27T22:34:44.203Z
-latestNpmVersion: 0.11.2
+lastCommitAt: 2026-11-16T09:43:55Z
+lastReleaseAt: 2026-11-10T13:13:54.110Z
+latestNpmVersion: 0.11.3
 maintainers:
   - github: DavideCarvalho
     name: DavideCarvalho

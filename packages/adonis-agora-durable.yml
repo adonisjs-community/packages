@@ -9,7 +9,7 @@ description: Durable cross-app workflows for AdonisJS — deterministic replay
 directory: packages/adonis
 github: https://github.com/DavideCarvalho/adonis-agora-durable
 icon: agora.svg
-lastCommitAt: 2026-11-09T04:32:09Z
+lastCommitAt: 2026-11-16T06:31:13Z
 lastReleaseAt: 2026-11-08T03:43:47.216Z
 latestNpmVersion: 0.60.0
 maintainers:

@@ -8,9 +8,9 @@ description: "AdonisJS OIDC/OAuth2 provider (Identity Provider) toolkit:
 directory: packages/authkit-server
 github: https://github.com/DavideCarvalho/adonis-agora-authkit
 icon: agora.svg
-lastCommitAt: 2026-11-09T05:43:16Z
-lastReleaseAt: 2026-11-05T08:53:14.315Z
-latestNpmVersion: 0.90.1
+lastCommitAt: 2026-11-16T14:13:03Z
+lastReleaseAt: 2026-11-11T02:31:23.517Z
+latestNpmVersion: 0.90.2
 maintainers:
   - github: DavideCarvalho
     name: DavideCarvalho
